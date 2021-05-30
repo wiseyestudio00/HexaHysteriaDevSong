@@ -1,0 +1,25 @@
+{
+    "SongName": "Journey's End",
+    "Composer": "SweetDove",
+    "Illustrator": "TODO",
+
+    "BPM": 165,
+    "FirstBeatOffset": 0.12,
+
+    "OrderIndex": 106,
+
+    "charts": [
+      {
+        "Name": "easy",
+        "Charter": "Sylex",
+        "Difficulty_level": 3,
+        "Duration": "2:29"
+      },
+      {
+        "Name": "medium",
+        "Charter": "Sylex",
+        "Difficulty_level": 3,
+        "Duration": "2:29"
+      }
+    ]
+}

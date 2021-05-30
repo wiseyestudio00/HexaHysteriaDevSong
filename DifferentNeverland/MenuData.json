@@ -1,0 +1,19 @@
+{
+    "SongName": "Different Neverland",
+    "Composer": "Milkoi",
+    "Illustrator": "TODO",
+
+    "BPM": 120,
+    "FirstBeatOffset": 0.702,
+
+    "OrderIndex": 103,
+
+    "charts": [
+        {
+            "Name": "hard",
+            "Charter": "Heaven EG",
+            "Difficulty_level": 7,
+            "Duration": "3:04"
+        }
+    ]
+}

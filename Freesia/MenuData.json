@@ -1,0 +1,25 @@
+{
+    "SongName": "Freesia",
+    "Composer": "FOIV",
+    "Illustrator": "TODO",
+
+    "BPM": 142,
+    "FirstBeatOffset": 0.832,
+
+    "OrderIndex": 105,
+
+    "charts": [
+        {
+            "Name": "easy",
+            "Charter": "Jmak",
+            "Difficulty_level": 3,
+            "Duration": "2:29"
+        },
+        {
+            "Name": "medium",
+            "Charter": "Jmak",
+            "Difficulty_level": 3,
+            "Duration": "2:29"
+        }
+    ]
+}

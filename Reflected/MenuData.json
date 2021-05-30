@@ -1,0 +1,31 @@
+{
+    "SongName": "Reflected",
+    "Composer": "Milkoi\nfeat. Serentium",
+    "Illustrator": "TODO",
+
+    "BPM": 112,
+    "FirstBeatOffset": 0.985,
+
+    "OrderIndex": 4,
+
+    "charts": [
+        {
+            "Name": "easy",
+            "Charter": "nishida",
+            "Difficulty_level": 8,
+            "Duration": "2:42"
+        },
+        {
+            "Name": "medium",
+            "Charter": "nishida",
+            "Difficulty_level": 8,
+            "Duration": "2:42"
+        },
+        {
+            "Name": "hard",
+            "Charter": "nishida",
+            "Difficulty_level": 8,
+            "Duration": "2:42"
+        }
+    ]
+}

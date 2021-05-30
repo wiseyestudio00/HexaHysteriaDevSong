@@ -1,0 +1,25 @@
+{
+    "SongName": "A Day In The Summer Night",
+    "Composer": "Nyarons",
+    "Illustrator": "TODO",
+
+    "BPM": 80,
+    "FirstBeatOffset": 0.0955,
+
+    "OrderIndex": 0,
+
+    "charts": [
+        {
+            "Name": "easy",
+            "Charter": "TODO",
+            "Difficulty_level": 6,
+            "Duration": "2:12"
+        },
+        {
+            "Name": "medium",
+            "Charter": "TODO",
+            "Difficulty_level": 9,
+            "Duration": "2:12"
+        }
+    ]
+}

@@ -1,0 +1,19 @@
+{
+    "SongName": "Blue",
+    "Composer": "Nyarons",
+    "Illustrator": "TODO",
+
+    "BPM": 80,
+    "FirstBeatOffset": 0.885,
+
+    "OrderIndex": 102,
+
+    "charts": [
+        {
+            "Name": "hard",
+            "Charter": "Star Scar",
+            "Difficulty_level": 8,
+            "Duration": "2:44"
+        }
+    ]
+}

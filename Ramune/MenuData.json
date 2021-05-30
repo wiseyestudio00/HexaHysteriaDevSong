@@ -1,0 +1,25 @@
+{
+    "SongName": "Ramune",
+    "Composer": "FOIV",
+    "Illustrator": "TODO",
+
+    "BPM": 175,
+    "FirstBeatOffset": 1.282,
+
+    "OrderIndex": 107,
+
+    "charts": [
+        {
+            "Name": "easy",
+            "Charter": "Wind",
+            "Difficulty_level": 3,
+            "Duration": "2:40"
+        },
+        {
+            "Name": "medium",
+            "Charter": "Wind",
+            "Difficulty_level": 3,
+            "Duration": "2:40"
+        }
+    ]
+}
