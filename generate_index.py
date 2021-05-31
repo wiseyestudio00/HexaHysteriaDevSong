@@ -33,10 +33,10 @@ for song_direcory in song_directories:
         # check modified time
         # check path
         # audio
-        result[file_path]["modified date"] = os.path.getmtime(file_path)
-        result[file_path]["size"] = os.path.getsize(file_path)
+        result[file_path]["ModificationDate"] = os.path.getmtime(file_path)
+        result[file_path]["Size"] = os.path.getsize(file_path)
 
 y = json.dumps(result, indent=4)
 
-with open("index.json", "w") as index:
+with open("catalog.json", "w") as index:
     index.write(y)
