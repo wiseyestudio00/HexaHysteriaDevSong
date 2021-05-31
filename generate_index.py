@@ -1,7 +1,7 @@
 import sys
 import os
 import json
-
+from datetime import datetime
 
 DIRPATHS = 0
 DIRNAMES = 1
@@ -29,12 +29,16 @@ for song_direcory in song_directories:
         file_path = f"{song_direcory}/{file}"
         
         result[file_path] = { }
+        
+        modification_sec = os.path.getmtime(file_path)
+        m_date = datetime.fromtimestamp(modification_sec).strftime("%A, %B %d, %Y %I:%M:%S")
 
         # check modified time
         # check path
         # audio
-        result[file_path]["ModificationDate"] = os.path.getmtime(file_path)
+        result[file_path]["ModificationDate"] = m_date
         result[file_path]["Size"] = os.path.getsize(file_path)
+
 
 y = json.dumps(result, indent=4)
 
