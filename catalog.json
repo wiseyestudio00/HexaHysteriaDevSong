@@ -71,21 +71,9 @@
         "ModificationDate": "2021-05-31 21:07:55.934441",
         "Size": 120
     },
-    "Reflected/chart.hard.txt": {
-        "ModificationDate": "2021-05-22 17:01:22.825664",
-        "Size": 42621
-    },
     "Reflected/audio.ogg": {
         "ModificationDate": "2020-10-16 00:26:23.621897",
         "Size": 3168848
-    },
-    "Reflected/chart.medium.txt": {
-        "ModificationDate": "2021-05-17 18:36:30.993540",
-        "Size": 15906
-    },
-    "Freesia/chart.easy.txt": {
-        "ModificationDate": "2021-05-23 18:07:53.675169",
-        "Size": 6448
     },
     "Freesia/level.json": {
         "ModificationDate": "2021-05-31 21:04:57.237111",
@@ -107,17 +95,9 @@
         "ModificationDate": "2021-04-27 11:54:22",
         "Size": 3436788
     },
-    "Ramune/MenuData.json": {
-        "ModificationDate": "2021-05-04 21:52:09.509269",
-        "Size": 468
-    },
     "Ramune/chart.medium.txt": {
         "ModificationDate": "2021-05-04 21:42:37.114402",
         "Size": 12906
-    },
-    "JourneysEnd/chart.easy.txt": {
-        "ModificationDate": "2021-04-16 18:54:00.671416",
-        "Size": 2094
     },
     "JourneysEnd/level.json": {
         "ModificationDate": "2021-05-31 21:05:37.657928",
@@ -126,10 +106,6 @@
     "JourneysEnd/audio.ogg": {
         "ModificationDate": "2020-10-15 08:56:20",
         "Size": 2964196
-    },
-    "JourneysEnd/chart.medium.txt": {
-        "ModificationDate": "2021-05-31 23:46:47.061658",
-        "Size": 14944
     },
     "FortuneDays/chart.easy.txt": {
         "ModificationDate": "2021-05-16 17:13:55.286732",
