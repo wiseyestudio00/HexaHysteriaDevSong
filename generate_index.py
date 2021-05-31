@@ -31,7 +31,7 @@ for song_direcory in song_directories:
         result[file_path] = { }
         
         modification_sec = os.path.getmtime(file_path)
-        m_date = datetime.fromtimestamp(modification_sec).strftime("%A, %B %d, %Y %I:%M:%S")
+        m_date = str(datetime.fromtimestamp(modification_sec))
 
         # check modified time
         # check path
