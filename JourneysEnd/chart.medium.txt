@@ -422,8 +422,6 @@ a changecamera angle 207 3 0 0 7.5 easeoutquad
 a changecamera angle 210 3 0 0 7.5 easeoutquad
 a changecamera angle 213 3 0 0 -7.5 easeoutquad
 
-strings add in
-
 a changecamera angle 216 1.5 0 1.5 1.5 easeoutsine
 a changecamera angle 219 1.5 0 -1.5 -1.5 easeoutsine
 a changecamera angle 222 1.5 0 -1.5 -1.5 easeoutsine
