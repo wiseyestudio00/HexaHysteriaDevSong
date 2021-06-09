@@ -1,39 +1,39 @@
 {
     "MeltInNight/chart.easy.txt": {
-        "ModificationDate": "2021-04-05 22:07:38.441462",
-        "Size": 3365
+        "ModificationDate": "2021-06-10 03:32:04.681423",
+        "Size": 3281
     },
     "MeltInNight/level.json": {
         "ModificationDate": "2021-05-31 21:06:52.285648",
         "Size": 106
     },
     "MeltInNight/chart.hard.txt": {
-        "ModificationDate": "2021-06-05 14:41:02.326927",
-        "Size": 16829
+        "ModificationDate": "2021-06-10 03:32:04.682582",
+        "Size": 16507
     },
     "MeltInNight/audio.ogg": {
         "ModificationDate": "2020-10-16 00:31:06.099945",
         "Size": 3038147
     },
     "MeltInNight/chart.medium.txt": {
-        "ModificationDate": "2021-06-05 14:41:02.327446",
-        "Size": 8677
+        "ModificationDate": "2021-06-10 03:32:04.683458",
+        "Size": 8477
     },
     "Blue/level.json": {
         "ModificationDate": "2021-05-31 21:02:39.913237",
         "Size": 101
     },
     "Blue/chart.hard.txt": {
-        "ModificationDate": "2021-03-20 21:52:53.703719",
-        "Size": 10576
+        "ModificationDate": "2021-06-10 03:32:04.684611",
+        "Size": 10538
     },
     "Blue/audio.ogg": {
         "ModificationDate": "2020-10-16 00:29:36.753311",
         "Size": 3316807
     },
     "ADayInTheSummerNight/chart.easy.txt": {
-        "ModificationDate": "2021-05-30 01:00:39.249900",
-        "Size": 2848
+        "ModificationDate": "2021-06-10 03:32:04.685498",
+        "Size": 2678
     },
     "ADayInTheSummerNight/level.json": {
         "ModificationDate": "2021-05-31 21:02:44.375330",
@@ -44,16 +44,16 @@
         "Size": 2503602
     },
     "ADayInTheSummerNight/chart.medium.txt": {
-        "ModificationDate": "2021-05-30 01:00:39.250290",
-        "Size": 6326
+        "ModificationDate": "2021-06-10 03:32:04.686348",
+        "Size": 5960
     },
     "Mellifluous/level.json": {
         "ModificationDate": "2021-05-31 21:06:14.129778",
         "Size": 110
     },
     "Mellifluous/chart.hard.txt": {
-        "ModificationDate": "2020-12-15 02:56:45.121313",
-        "Size": 12461
+        "ModificationDate": "2021-06-10 03:32:04.687474",
+        "Size": 12215
     },
     "Mellifluous/audio.ogg": {
         "ModificationDate": "2020-10-15 23:41:51.475328",
@@ -64,8 +64,8 @@
         "Size": 331
     },
     "Reflected/chart.easy.txt": {
-        "ModificationDate": "2021-06-01 01:33:53.511912",
-        "Size": 5124
+        "ModificationDate": "2021-06-10 03:32:04.689197",
+        "Size": 5050
     },
     "Reflected/level.json": {
         "ModificationDate": "2021-05-31 21:07:55.934441",
@@ -84,7 +84,7 @@
         "Size": 3022565
     },
     "Ramune/chart.easy.txt": {
-        "ModificationDate": "2021-05-04 21:42:34.426229",
+        "ModificationDate": "2021-06-10 03:32:04.690458",
         "Size": 2686
     },
     "Ramune/level.json": {
@@ -96,8 +96,8 @@
         "Size": 3436788
     },
     "Ramune/chart.medium.txt": {
-        "ModificationDate": "2021-05-04 21:42:37.114402",
-        "Size": 12906
+        "ModificationDate": "2021-06-10 03:32:04.691389",
+        "Size": 12780
     },
     "JourneysEnd/level.json": {
         "ModificationDate": "2021-05-31 21:05:37.657928",
@@ -108,8 +108,8 @@
         "Size": 2964196
     },
     "FortuneDays/chart.easy.txt": {
-        "ModificationDate": "2021-05-16 17:13:55.286732",
-        "Size": 2137
+        "ModificationDate": "2021-06-10 03:32:04.692454",
+        "Size": 1965
     },
     "FortuneDays/level.json": {
         "ModificationDate": "2021-05-31 21:04:08.475874",
@@ -120,16 +120,16 @@
         "Size": 3056123
     },
     "FortuneDays/chart.medium.txt": {
-        "ModificationDate": "2021-05-22 18:53:49.804968",
-        "Size": 5212
+        "ModificationDate": "2021-06-10 03:32:04.693373",
+        "Size": 4856
     },
     "DifferentNeverland/level.json": {
         "ModificationDate": "2021-05-31 21:03:09.524422",
         "Size": 113
     },
     "DifferentNeverland/chart.hard.txt": {
-        "ModificationDate": "2021-02-22 04:23:21.891230",
-        "Size": 25201
+        "ModificationDate": "2021-06-10 03:32:04.739325",
+        "Size": 24661
     },
     "DifferentNeverland/audio.ogg": {
         "ModificationDate": "2020-10-16 00:22:22.369602",
