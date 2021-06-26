@@ -1,59 +1,59 @@
-Depersonalization - Hard
-Charter : nsida 
+depersonalization - hard
+charter : nsida 
 combo : 
 
-以下是Depersonalization(名字有夠長
+以下是depersonalization(名字有夠長
 
 2021年5月28
 發現fl studio可以將time signature 變爲 ¼拍 
 這樣可以拿來數拍
 
-1 Intro 
-37 Bridge
-69 Small Bridge
-77 Verse1 
-141 Verse2
-205 Chorus
-269 Quiet
-333 Bridge
-365 Chorus
-429 Final Blow
-493 Outro
+1 intro 
+37 bridge
+69 small bridge
+77 verse1 
+141 verse2
+205 chorus
+269 quiet
+333 bridge
+365 chorus
+429 final blow
+493 outro
 
 1和493要首尾呼應
 
 1~5異健同位 catch 遠下遠中近中
 4  
 5鋼琴低音和高音分別catch和short
-37 Kick三十二分
+37 kick三十二分
 69 舞臺效果？瞬移 最後2拍settle down
-77數拍子+Lead
-109 Lead
-125Kick 
-137 輕量采Lead音 or 直接空白
+77數拍子+lead
+109 lead
+125kick 
+137 輕量采lead音 or 直接空白
 141 强調“得””炸” 下上拖
-197 Kick 
-205 Lead+數拍子
+197 kick 
+205 lead+數拍子
 237 鋼琴catch
 253 鋼琴慢入kick
 269 主要舞臺動作鋼琴低音四粒一組 (先消失？遠平移)
 ~313啊 long + 旋轉
 325開始拉回中央
-333 Lead分組的第一拍要强調
-349 Kick
+333 lead分組的第一拍要强調
+349 kick
 361 放大+stutter旋轉
-365 Lead 普通screen pump(要比reflected pump弱)
-413 四十八分Kick 
+365 lead 普通screen pump(要比reflected pump弱)
+413 四十八分kick 
 429 高音鋼琴
 461 數拍子+高音鋼琴
-477四十八分Kick 
+477四十八分kick 
 501 雙long收尾  拉遠+ 旋轉sway
 
-Kick位置每kick一下就旋轉+pump
+kick位置每kick一下就旋轉+pump
 左右5°來回(側一點)
 32/48分異健同位
 
-這首采音好難QQ
+這首采音好難qq
 今天采到beat209算了
  
 
@@ -74,7 +74,7 @@ Kick位置每kick一下就旋轉+pump
                                      4
 
 
-發現了MS word巨集可以把譜面旋轉、左右上下反轉
+發現了ms word巨集可以把譜面旋轉、左右上下反轉
 */
 
 define stageposition rtbounce 1.5,2.6098075,0 0,0,240 2.7,0,0 0,0,180 1.35,-2.35,0 0,0,120 -1.35,-2.35,0 0,0,60 -2.7,0,0 0,0,0 -1.35,2.35,0 0,0,300
@@ -88,117 +88,117 @@ define stageposition cluster 0.9,1.56667,-1 0,0,240 1.8,0,-1 0,0,180 0.9,-1.5666
 define stageposition spread 2.025,3.525,1 0,0,240 4.05,0,1 0,0,180 2.025,-3.525,1 0,0,120 -2.025,-3.525,1 0,0,60 -4.05,0,1 0,0,0 -2.025,3.525,1 0,0,300
 
 
-/a movecamera angle 1 4 0 0 60 EaseInSine
+/a movecamera angle 1 4 0 0 60 easeinsine
 
-/a changestage cluster -0 0.01 Linear
-/a changestage classichexagon 5 4 EaseOutSine
+/a changestage cluster -0 0.01 linear
+/a changestage classichexagon 5 4 easeoutsine
 
 //zoom out, sway and zoom in
-a movecamera position 5 8 0 0 -2 Linear
-a movecamera angle 5 4 0 0 15 EaseInOutSine
-a movecamera angle 9 8 0 0 -30 EaseInOutSine 
-a movecamera angle 17 8 0 0 30 EaseInOutSine
-a movecamera angle 25 8 0 0 -30 EaseInOutSine
-a movecamera angle 33 4 0 0 75 EaseInSine
-a movecamera position 33 4 0 0 2 EaseInQuad
+a movecamera position 5 8 0 0 -2 linear
+a movecamera angle 5 4 0 0 15 easeinoutsine
+a movecamera angle 9 8 0 0 -30 easeinoutsine 
+a movecamera angle 17 8 0 0 30 easeinoutsine
+a movecamera angle 25 8 0 0 -30 easeinoutsine
+a movecamera angle 33 4 0 0 75 easeinsine
+a movecamera position 33 4 0 0 2 easeinquad
 
 
 
 
 //screenpump
 
-a s_movecamera position z 37 0.25 0.1 EaseOutQuad
-a s_movecamera position z 37.25 0.75 -0.1 EaseInSine
-a s_movecamera position z 38 0.25 0.1 EaseOutQuad
-a s_movecamera position z 38.25 0.75 -0.1 EaseInSine
-a s_movecamera position z 39 0.25 0.1 EaseOutQuad
-a s_movecamera position z 39.25 0.75 -0.1 EaseInSine
-a s_movecamera position z 40 0.25 0.1 EaseOutQuad
-a s_movecamera position z 40.25 0.75 -0.1 EaseInSine
-a s_movecamera position z 41 0.25 0.1 EaseOutQuad
-a s_movecamera position z 41.25 0.75 -0.1 EaseInSine
-a s_movecamera position z 42 0.25 0.1 EaseOutQuad
-a s_movecamera position z 42.25 0.75 -0.1 EaseInSine
-a s_movecamera position z 43 0.25 0.1 EaseOutQuad
-a s_movecamera position z 43.25 0.75 -0.1 EaseInSine
-a s_movecamera position z 44 0.25 0.1 EaseOutQuad
-a s_movecamera position z 44.25 0.75 -0.1 EaseInSine
-a s_movecamera position z 45 0.25 0.1 EaseOutQuad
-a s_movecamera position z 45.25 0.75 -0.1 EaseInSine
-a s_movecamera position z 46 0.25 0.1 EaseOutQuad
-a s_movecamera position z 46.25 0.75 -0.1 EaseInSine
-a s_movecamera position z 47 0.25 0.1 EaseOutQuad
-a s_movecamera position z 47.25 0.75 -0.1 EaseInSine
-a s_movecamera position z 48 0.25 0.1 EaseOutQuad
-a s_movecamera position z 48.25 0.75 -0.1 EaseInSine
-a s_movecamera position z 49 0.25 0.1 EaseOutQuad
-a s_movecamera position z 49.25 0.75 -0.1 EaseInSine
-a s_movecamera position z 50 0.25 0.1 EaseOutQuad
-a s_movecamera position z 50.25 0.75 -0.1 EaseInSine
-a s_movecamera position z 51 0.25 0.1 EaseOutQuad
-a s_movecamera position z 51.25 0.75 -0.1 EaseInSine
-/a s_movecamera position z 52 0.25 0.1 EaseOutQuad
-/a s_movecamera position z 52.25 0.75 -0.1 EaseInSine
+a s_movecamera position z 37 0.25 0.1 easeoutquad
+a s_movecamera position z 37.25 0.75 -0.1 easeinsine
+a s_movecamera position z 38 0.25 0.1 easeoutquad
+a s_movecamera position z 38.25 0.75 -0.1 easeinsine
+a s_movecamera position z 39 0.25 0.1 easeoutquad
+a s_movecamera position z 39.25 0.75 -0.1 easeinsine
+a s_movecamera position z 40 0.25 0.1 easeoutquad
+a s_movecamera position z 40.25 0.75 -0.1 easeinsine
+a s_movecamera position z 41 0.25 0.1 easeoutquad
+a s_movecamera position z 41.25 0.75 -0.1 easeinsine
+a s_movecamera position z 42 0.25 0.1 easeoutquad
+a s_movecamera position z 42.25 0.75 -0.1 easeinsine
+a s_movecamera position z 43 0.25 0.1 easeoutquad
+a s_movecamera position z 43.25 0.75 -0.1 easeinsine
+a s_movecamera position z 44 0.25 0.1 easeoutquad
+a s_movecamera position z 44.25 0.75 -0.1 easeinsine
+a s_movecamera position z 45 0.25 0.1 easeoutquad
+a s_movecamera position z 45.25 0.75 -0.1 easeinsine
+a s_movecamera position z 46 0.25 0.1 easeoutquad
+a s_movecamera position z 46.25 0.75 -0.1 easeinsine
+a s_movecamera position z 47 0.25 0.1 easeoutquad
+a s_movecamera position z 47.25 0.75 -0.1 easeinsine
+a s_movecamera position z 48 0.25 0.1 easeoutquad
+a s_movecamera position z 48.25 0.75 -0.1 easeinsine
+a s_movecamera position z 49 0.25 0.1 easeoutquad
+a s_movecamera position z 49.25 0.75 -0.1 easeinsine
+a s_movecamera position z 50 0.25 0.1 easeoutquad
+a s_movecamera position z 50.25 0.75 -0.1 easeinsine
+a s_movecamera position z 51 0.25 0.1 easeoutquad
+a s_movecamera position z 51.25 0.75 -0.1 easeinsine
+/a s_movecamera position z 52 0.25 0.1 easeoutquad
+/a s_movecamera position z 52.25 0.75 -0.1 easeinsine
 
 
 
 //bounce position
-a s_movestage abs_position x 53 2 -0.15 EaseOutSine
-a s_movestage abs_position y 53 2 -0.259807 EaseOutSine
-a s_movestage abs_position x 55 4 0.15 EaseInOutSine
-a s_movestage abs_position y 55 4 0.259807 EaseInOutSine
-a s_movestage abs_position x 59 2 0 EaseInSine
-a s_movestage abs_position y 59 2 0 EaseInSine
+a s_movestage abs_position x 53 2 -0.15 easeoutsine
+a s_movestage abs_position y 53 2 -0.259807 easeoutsine
+a s_movestage abs_position x 55 4 0.15 easeinoutsine
+a s_movestage abs_position y 55 4 0.259807 easeinoutsine
+a s_movestage abs_position x 59 2 0 easeinsine
+a s_movestage abs_position y 59 2 0 easeinsine
 
 
-a s_movecamera position y 53.0 0.5 -0.1 EaseOutSine
-a s_movecamera position y 53.5 0.5 +0.1 EaseInSine
-a s_movecamera position y 54.0 0.5 -0.1 EaseOutSine
-a s_movecamera position y 54.5 0.5 +0.1 EaseInSine
-a s_movecamera position y 55.0 0.5 -0.1 EaseOutSine
-a s_movecamera position y 55.5 0.5 +0.1 EaseInSine
-a s_movecamera position y 56.0 0.5 -0.1 EaseOutSine
-a s_movecamera position y 56.5 0.5 +0.1 EaseInSine
+a s_movecamera position y 53.0 0.5 -0.1 easeoutsine
+a s_movecamera position y 53.5 0.5 +0.1 easeinsine
+a s_movecamera position y 54.0 0.5 -0.1 easeoutsine
+a s_movecamera position y 54.5 0.5 +0.1 easeinsine
+a s_movecamera position y 55.0 0.5 -0.1 easeoutsine
+a s_movecamera position y 55.5 0.5 +0.1 easeinsine
+a s_movecamera position y 56.0 0.5 -0.1 easeoutsine
+a s_movecamera position y 56.5 0.5 +0.1 easeinsine
 
-a s_movecamera position y 57.0 0.5 -0.1 EaseOutSine
-a s_movecamera position y 57.5 0.5 +0.1 EaseInSine
-a s_movecamera position y 58.0 0.5 -0.1 EaseOutSine
-a s_movecamera position y 58.5 0.5 +0.1 EaseInSine
-a s_movecamera position y 59.0 0.5 -0.1 EaseOutSine
-a s_movecamera position y 59.5 0.5 +0.1 EaseInSine
-a s_movecamera position y 60.0 0.5 -0.1 EaseOutSine
-a s_movecamera position y 60.5 0.5 +0.1 EaseInSine
+a s_movecamera position y 57.0 0.5 -0.1 easeoutsine
+a s_movecamera position y 57.5 0.5 +0.1 easeinsine
+a s_movecamera position y 58.0 0.5 -0.1 easeoutsine
+a s_movecamera position y 58.5 0.5 +0.1 easeinsine
+a s_movecamera position y 59.0 0.5 -0.1 easeoutsine
+a s_movecamera position y 59.5 0.5 +0.1 easeinsine
+a s_movecamera position y 60.0 0.5 -0.1 easeoutsine
+a s_movecamera position y 60.5 0.5 +0.1 easeinsine
 
 //bounce angle
-a movecamera angle 53 1 0 0 3.75 Linear
-a movecamera angle 54 1 0 0 -3.75 Linear
-a movecamera angle 55 1 0 0 3.75 Linear
-a movecamera angle 56 1 0 0 -3.75 Linear
-a movecamera angle 57 1 0 0 3.75 Linear
-a movecamera angle 58 1 0 0 -3.75 Linear
-a movecamera angle 59 1 0 0 3.75 Linear
-a movecamera angle 60 1 0 0 -3.75 Linear
-/a s_movestage angle z 53 2 -7.5 EaseInOutSine
-/a s_movestage angle z 55 4 15 EaseInOutSine
-/a s_movestage angle z 59 2 -7.5 EaseInOutSine
+a movecamera angle 53 1 0 0 3.75 linear
+a movecamera angle 54 1 0 0 -3.75 linear
+a movecamera angle 55 1 0 0 3.75 linear
+a movecamera angle 56 1 0 0 -3.75 linear
+a movecamera angle 57 1 0 0 3.75 linear
+a movecamera angle 58 1 0 0 -3.75 linear
+a movecamera angle 59 1 0 0 3.75 linear
+a movecamera angle 60 1 0 0 -3.75 linear
+/a s_movestage angle z 53 2 -7.5 easeinoutsine
+/a s_movestage angle z 55 4 15 easeinoutsine
+/a s_movestage angle z 59 2 -7.5 easeinoutsine
 
 //6hours of work: rotate zoom out and ready
-a movecamera angle 61 8 0 0 240 EaseInSine
-a movecamera angle 69 4 0 0 60 EaseOutCubic
-a movecamera angle 73 4 0 0 -360 EaseOutCubic
-a movecamera position 69 4 0 0 -2.5 EaseOutCirc
-a movecamera position 73 4 0 0 +2.5 EaseOutCirc
+a movecamera angle 61 8 0 0 240 easeinsine
+a movecamera angle 69 4 0 0 60 easeoutcubic
+a movecamera angle 73 4 0 0 -360 easeoutcubic
+a movecamera position 69 4 0 0 -2.5 easeoutcirc
+a movecamera position 73 4 0 0 +2.5 easeoutcirc
 
 /*
-//16th-note pump (NOT FINISHED)
-a movecamera position 65.000 0.200 0 0 0.125 EaseOutQuad
-a movecamera position 65.250 0.200 0 0 -0.125 EaseOutQuad
-a movecamera position 65.500 0.200 0 0 0.125 EaseOutQuad
-a movecamera position 65.750 0.200 0 0 -0.125 EaseOutQuad
-a movecamera position 66.000 0.200 0 0 0.125 EaseOutQuad
-a movecamera position 66.250 0.200 0 0 -0.125 EaseOutQuad
-a movecamera position 66.500 0.200 0 0 0.125 EaseOutQuad
-a movecamera position 66.750 0.200 0 0 -0.125 EaseOutQuad
+//16th-note pump (not finished)
+a movecamera position 65.000 0.200 0 0 0.125 easeoutquad
+a movecamera position 65.250 0.200 0 0 -0.125 easeoutquad
+a movecamera position 65.500 0.200 0 0 0.125 easeoutquad
+a movecamera position 65.750 0.200 0 0 -0.125 easeoutquad
+a movecamera position 66.000 0.200 0 0 0.125 easeoutquad
+a movecamera position 66.250 0.200 0 0 -0.125 easeoutquad
+a movecamera position 66.500 0.200 0 0 0.125 easeoutquad
+a movecamera position 66.750 0.200 0 0 -0.125 easeoutquad
 */
 
 
@@ -208,138 +208,138 @@ a movecamera position 66.750 0.200 0 0 -0.125 EaseOutQuad
 
 
 //swipe nudge stage
-a s_movecamera position x 94.5 1 +0.15 EaseOutQuad
-a s_movecamera position y 94.5 1 +0.26 EaseOutQuad
+a s_movecamera position x 94.5 1 +0.15 easeoutquad
+a s_movecamera position y 94.5 1 +0.26 easeoutquad
 
-a s_movecamera position x 95.5 1 -0.3 EaseOutQuad
+a s_movecamera position x 95.5 1 -0.3 easeoutquad
 
-a s_movecamera position x 96.5 1 +0.3 EaseOutQuad
+a s_movecamera position x 96.5 1 +0.3 easeoutquad
 
-a s_movecamera position x 97.5 1 -0.15 EaseOutQuad
-a s_movecamera position y 97.5 1 +0.26 EaseOutQuad
+a s_movecamera position x 97.5 1 -0.15 easeoutquad
+a s_movecamera position y 97.5 1 +0.26 easeoutquad
 
-a s_movecamera position y 98.5 2 -0.52 EaseInSine
-
-
-a s_movecamera position x 117.5 1 -0.3 EaseOutQuad
-
-a s_movecamera position x 118.5 1 +0.3 EaseOutQuad
-
-a s_movecamera position x 119.5 1 -0.15 EaseOutQuad
-a s_movecamera position y 119.5 1 -0.26 EaseOutQuad
-
-a s_movecamera position x 120.5 2 +0.15 EaseInSine
-a s_movecamera position y 120.5 2 +0.26 EaseInSine
-
-a s_movecamera angle x 94.5 1 1 EaseOutSine
-a s_movecamera angle x 95.5 1 1 EaseOutSine
-a s_movecamera angle x 96.5 1 1 EaseOutSine
-a s_movecamera angle x 97.5 1 1 EaseOutSine
-a s_movecamera angle x 98.5 2 -4 EaseInSine
-
-a s_movecamera angle x 117.5 1 -1 EaseOutSine
-a s_movecamera angle x 118.5 1 -1 EaseOutSine
-a s_movecamera angle x 119.5 1 -1 EaseOutSine
-a s_movecamera angle x 120.5 2 3 EaseInSine
+a s_movecamera position y 98.5 2 -0.52 easeinsine
 
 
+a s_movecamera position x 117.5 1 -0.3 easeoutquad
 
-/a s_movecamera position y 131 2 +0.5 EaseInSine
+a s_movecamera position x 118.5 1 +0.3 easeoutquad
+
+a s_movecamera position x 119.5 1 -0.15 easeoutquad
+a s_movecamera position y 119.5 1 -0.26 easeoutquad
+
+a s_movecamera position x 120.5 2 +0.15 easeinsine
+a s_movecamera position y 120.5 2 +0.26 easeinsine
+
+a s_movecamera angle x 94.5 1 1 easeoutsine
+a s_movecamera angle x 95.5 1 1 easeoutsine
+a s_movecamera angle x 96.5 1 1 easeoutsine
+a s_movecamera angle x 97.5 1 1 easeoutsine
+a s_movecamera angle x 98.5 2 -4 easeinsine
+
+a s_movecamera angle x 117.5 1 -1 easeoutsine
+a s_movecamera angle x 118.5 1 -1 easeoutsine
+a s_movecamera angle x 119.5 1 -1 easeoutsine
+a s_movecamera angle x 120.5 2 3 easeinsine
+
+
+
+/a s_movecamera position y 131 2 +0.5 easeinsine
 
 //bridge kick rotate
-a s_movestage angle z 125 16 180 EaseInOutQuad
+a s_movestage angle z 125 16 180 easeinoutquad
 
-/a s_movecamera position y 136 1.5 -0.5 EaseInSine
-
-
+/a s_movecamera position y 136 1.5 -0.5 easeinsine
 
 
 
 
-//(EXPERIMENTAL) 
+
+
+//(experimental) 
 /*
-a s_movecamera abs_position x 124.5 1 0.5 Linear
-a s_movecamera abs_position x 125.5 1 0.25 Linear
-a s_movecamera abs_position y 125.5 1 -0.433 Linear
-a s_movecamera abs_position x 126.5 1 -0.25 Linear
-a s_movecamera abs_position y 126.5 1 -0.433 Linear
-a s_movecamera abs_position x 127.5 1 -0.5 Linear
-a s_movecamera abs_position y 127.5 1 -0 Linear
+a s_movecamera abs_position x 124.5 1 0.5 linear
+a s_movecamera abs_position x 125.5 1 0.25 linear
+a s_movecamera abs_position y 125.5 1 -0.433 linear
+a s_movecamera abs_position x 126.5 1 -0.25 linear
+a s_movecamera abs_position y 126.5 1 -0.433 linear
+a s_movecamera abs_position x 127.5 1 -0.5 linear
+a s_movecamera abs_position y 127.5 1 -0 linear
 
 
 
-a s_movecamera abs_position x 128.5 0.5 -0.25 Linear
-a s_movecamera abs_position y 128.5 0.5 0.433 Linear
+a s_movecamera abs_position x 128.5 0.5 -0.25 linear
+a s_movecamera abs_position y 128.5 0.5 0.433 linear
 
-a s_movecamera abs_position x 129 0.5 0.25 Linear
-a s_movecamera abs_position y 129 0.5 0.433 Linear
+a s_movecamera abs_position x 129 0.5 0.25 linear
+a s_movecamera abs_position y 129 0.5 0.433 linear
 
-a s_movecamera abs_position x 129.5 0.5 0.5 Linear
-a s_movecamera abs_position y 129.5 0.5 0 Linear
+a s_movecamera abs_position x 129.5 0.5 0.5 linear
+a s_movecamera abs_position y 129.5 0.5 0 linear
 
-a s_movecamera abs_position x 130 0.5 0.25 Linear
-a s_movecamera abs_position y 130 0.5 -0.433 Linear
+a s_movecamera abs_position x 130 0.5 0.25 linear
+a s_movecamera abs_position y 130 0.5 -0.433 linear
 
-a s_movecamera abs_position x 130.5 0.5 -0.25 Linear
-a s_movecamera abs_position y 130.5 0.5 -0.433 Linear
+a s_movecamera abs_position x 130.5 0.5 -0.25 linear
+a s_movecamera abs_position y 130.5 0.5 -0.433 linear
 
-a s_movecamera abs_position x 131 0.5 -0.5 Linear
-a s_movecamera abs_position y 131 0.5 0 Linear
+a s_movecamera abs_position x 131 0.5 -0.5 linear
+a s_movecamera abs_position y 131 0.5 0 linear
 
-a s_movecamera abs_position x 131.5 0.5 -0.25 Linear
-a s_movecamera abs_position y 131.5 0.5 0.433 Linear
+a s_movecamera abs_position x 131.5 0.5 -0.25 linear
+a s_movecamera abs_position y 131.5 0.5 0.433 linear
 
-a s_movecamera abs_position x 132 0.5 0.25 Linear
-a s_movecamera abs_position y 132 0.5 0.433 Linear
+a s_movecamera abs_position x 132 0.5 0.25 linear
+a s_movecamera abs_position y 132 0.5 0.433 linear
 
-a s_movecamera abs_position x 132.5 1 0.5 EaseInOutSine
-a s_movecamera abs_position y 132.5 1 0 EaseInOutSine
+a s_movecamera abs_position x 132.5 1 0.5 easeinoutsine
+a s_movecamera abs_position y 132.5 1 0 easeinoutsine
 
-a s_movecamera abs_position x 133.5 1 0.25 EaseInOutSine
-a s_movecamera abs_position y 133.5 1 -0.433 EaseInOutSine
-a s_movecamera abs_position x 134.5 1 -0.25 EaseInOutSine
-a s_movecamera abs_position y 134.5 1 -0.433 EaseInOutSine
-a s_movecamera abs_position x 135.5 1 -0.5 EaseInOutSine
-a s_movecamera abs_position y 135.5 1 -0 EaseInOutSine
-a s_movecamera abs_position x 136.5 0.5 -0 EaseInOutSine
-a s_movecamera abs_position y 136.5 0.5 -0 EaseInOutSine
+a s_movecamera abs_position x 133.5 1 0.25 easeinoutsine
+a s_movecamera abs_position y 133.5 1 -0.433 easeinoutsine
+a s_movecamera abs_position x 134.5 1 -0.25 easeinoutsine
+a s_movecamera abs_position y 134.5 1 -0.433 easeinoutsine
+a s_movecamera abs_position x 135.5 1 -0.5 easeinoutsine
+a s_movecamera abs_position y 135.5 1 -0 easeinoutsine
+a s_movecamera abs_position x 136.5 0.5 -0 easeinoutsine
+a s_movecamera abs_position y 136.5 0.5 -0 easeinoutsine
 */
 
 
 //{8}1,,,1,,,1,,
-a s_movecamera position z 137 1.5 -2 EaseOutSine
-a s_movecamera position z 138.5 1.5 +3 EaseOutSine
-a s_movecamera position z 140 1 -1 EaseOutSine
+a s_movecamera position z 137 1.5 -2 easeoutsine
+a s_movecamera position z 138.5 1.5 +3 easeoutsine
+a s_movecamera position z 140 1 -1 easeoutsine
 
-//(ABANDONED)
+//(abandoned)
 /*
-a s_movecamera angle z 133.00 0.25 -1 EaseInOutSine
-a s_movecamera angle z 133.25 0.25 +1 EaseInOutSine
-a s_movecamera angle z 133.50 0.25 -1 EaseInOutSine
-a s_movecamera angle z 133.75 0.25 +1 EaseInOutSine
-a s_movecamera angle z 134.00 0.25 -1 EaseInOutSine
-a s_movecamera angle z 134.25 0.25 +1 EaseInOutSine
-a s_movecamera angle z 134.50 0.25 -1 EaseInOutSine
-a s_movecamera angle z 134.75 0.25 +1 EaseInOutSine
-a s_movecamera angle z 135.00 0.25 -1 EaseInOutSine
-a s_movecamera angle z 135.166667 0.25 +1 EaseInOutSine
-a s_movecamera angle z 135.333333 0.25 -1 EaseInOutSine
-a s_movecamera angle z 135.5 0.25 +1 EaseInOutSine
-a s_movecamera angle z 135.666667 0.25 -1 EaseInOutSine
-a s_movecamera angle z 135.833333 0.25 +1 EaseInOutSine
+a s_movecamera angle z 133.00 0.25 -1 easeinoutsine
+a s_movecamera angle z 133.25 0.25 +1 easeinoutsine
+a s_movecamera angle z 133.50 0.25 -1 easeinoutsine
+a s_movecamera angle z 133.75 0.25 +1 easeinoutsine
+a s_movecamera angle z 134.00 0.25 -1 easeinoutsine
+a s_movecamera angle z 134.25 0.25 +1 easeinoutsine
+a s_movecamera angle z 134.50 0.25 -1 easeinoutsine
+a s_movecamera angle z 134.75 0.25 +1 easeinoutsine
+a s_movecamera angle z 135.00 0.25 -1 easeinoutsine
+a s_movecamera angle z 135.166667 0.25 +1 easeinoutsine
+a s_movecamera angle z 135.333333 0.25 -1 easeinoutsine
+a s_movecamera angle z 135.5 0.25 +1 easeinoutsine
+a s_movecamera angle z 135.666667 0.25 -1 easeinoutsine
+a s_movecamera angle z 135.833333 0.25 +1 easeinoutsine
 
 */
 
 
 
 /*
-a s_movecamera abs_angle y 132.5 1 +5 EaseInOutSine
-a s_movecamera abs_angle y 133.5 1 +2.5 EaseInOutSine
-a s_movecamera abs_angle x 133.5 1 +4.33 EaseInOutSine
-a s_movecamera abs_angle y 134.5 1 -2.5 EaseInOutSine
-a s_movecamera abs_angle x 134.5 1 +4.33 EaseInOutSine
-a movecamera angle 135.5 1 0 -5 0 EaseInOutSine
-a movecamera abs_angle 136.5 0.5 0 360 360 EaseInOutSine
+a s_movecamera abs_angle y 132.5 1 +5 easeinoutsine
+a s_movecamera abs_angle y 133.5 1 +2.5 easeinoutsine
+a s_movecamera abs_angle x 133.5 1 +4.33 easeinoutsine
+a s_movecamera abs_angle y 134.5 1 -2.5 easeinoutsine
+a s_movecamera abs_angle x 134.5 1 +4.33 easeinoutsine
+a movecamera angle 135.5 1 0 -5 0 easeinoutsine
+a movecamera abs_angle 136.5 0.5 0 360 360 easeinoutsine
 
 */
 
@@ -351,498 +351,498 @@ a movecamera abs_angle 136.5 0.5 0 360 360 EaseInOutSine
 
 
 //
-a s_movestage abs_position x 142.5 1 -0.125 EaseInOutSine
-a s_movestage abs_position y 142.5 1 -0.217 EaseInOutSine
-a s_movestage abs_position x 143.5 1 0.125 EaseInOutSine
-a s_movestage abs_position y 143.5 1 0.217 EaseInOutSine
-a s_movestage abs_position x 144.5 1 -0.25 EaseInOutSine
-a s_movestage abs_position y 144.5 1 -0 EaseInOutSine
-a s_movestage abs_position x 145.5 1 0.25 EaseInOutSine
-a s_movestage abs_position y 145.5 1 0 EaseInOutSine
-a s_movestage position x 147.0 0.25 -0.0625 EaseOutQuad
-a s_movestage position x 147.5 0.25 -0.0625 EaseOutQuad
-a s_movestage position x 148.0 0.25 -0.0625 EaseOutQuad
-a s_movestage abs_position x 148.5 0.25 0 EaseOutQuad
+a s_movestage abs_position x 142.5 1 -0.125 easeinoutsine
+a s_movestage abs_position y 142.5 1 -0.217 easeinoutsine
+a s_movestage abs_position x 143.5 1 0.125 easeinoutsine
+a s_movestage abs_position y 143.5 1 0.217 easeinoutsine
+a s_movestage abs_position x 144.5 1 -0.25 easeinoutsine
+a s_movestage abs_position y 144.5 1 -0 easeinoutsine
+a s_movestage abs_position x 145.5 1 0.25 easeinoutsine
+a s_movestage abs_position y 145.5 1 0 easeinoutsine
+a s_movestage position x 147.0 0.25 -0.0625 easeoutquad
+a s_movestage position x 147.5 0.25 -0.0625 easeoutquad
+a s_movestage position x 148.0 0.25 -0.0625 easeoutquad
+a s_movestage abs_position x 148.5 0.25 0 easeoutquad
 
-a s_movecamera abs_angle x 150.5 0 0 EaseInOutSine
+a s_movecamera abs_angle x 150.5 0 0 easeinoutsine
 
-a s_movestage abs_position x 150.5 1 0.125 EaseInOutSine
-a s_movestage abs_position y 150.5 1 -0.217 EaseInOutSine
-a s_movestage abs_position x 151.5 1 -0.125 EaseInOutSine
-a s_movestage abs_position y 151.5 1 0.217 EaseInOutSine
-a s_movestage abs_position x 152.5 1 0.25 EaseInOutSine
-a s_movestage abs_position y 152.5 1 -0 EaseInOutSine
-a s_movestage abs_position x 153.5 1 -0.25 EaseInOutSine
-a s_movestage abs_position y 153.5 1 0 EaseInOutSine
-a s_movestage position x 155.0 0.25 0.0625 EaseOutQuad
-a s_movestage position x 155.5 0.25 0.0625 EaseOutQuad
-a s_movestage position x 156.0 0.25 0.0625 EaseOutQuad
-a s_movestage abs_position x 156.5 0.25 0 EaseOutQuad
+a s_movestage abs_position x 150.5 1 0.125 easeinoutsine
+a s_movestage abs_position y 150.5 1 -0.217 easeinoutsine
+a s_movestage abs_position x 151.5 1 -0.125 easeinoutsine
+a s_movestage abs_position y 151.5 1 0.217 easeinoutsine
+a s_movestage abs_position x 152.5 1 0.25 easeinoutsine
+a s_movestage abs_position y 152.5 1 -0 easeinoutsine
+a s_movestage abs_position x 153.5 1 -0.25 easeinoutsine
+a s_movestage abs_position y 153.5 1 0 easeinoutsine
+a s_movestage position x 155.0 0.25 0.0625 easeoutquad
+a s_movestage position x 155.5 0.25 0.0625 easeoutquad
+a s_movestage position x 156.0 0.25 0.0625 easeoutquad
+a s_movestage abs_position x 156.5 0.25 0 easeoutquad
 
-a s_movestage abs_position x 158.5 1 -0.25 EaseInOutSine
-a s_movestage abs_position y 158.5 1 0 EaseInOutSine
-a s_movestage abs_position x 159.5 1 -0.125 EaseInOutSine
-a s_movestage abs_position y 159.5 1 -0.217 EaseInOutSine
-a s_movestage abs_position x 160.5 1 0.125 EaseInOutSine
-a s_movestage abs_position y 160.5 1 -0.217 EaseInOutSine
-a s_movestage abs_position x 161.5 1 0.25 EaseInOutSine
-a s_movestage abs_position y 161.5 1 0 EaseInOutSine
-a s_movestage abs_position x 162.5 1 0 EaseInOutSine
-a s_movestage position y 163.0 0.25 0.0625 EaseOutQuad
-a s_movestage position y 164.0 0.25 0.0625 EaseOutQuad
-a s_movestage position z 163.0 1 -0.2 EaseOutSine
-a s_movestage position z 164.0 1 0.2 EaseInSine
-a s_movestage abs_position y 164.5 0.5 0 EaseOutQuad
+a s_movestage abs_position x 158.5 1 -0.25 easeinoutsine
+a s_movestage abs_position y 158.5 1 0 easeinoutsine
+a s_movestage abs_position x 159.5 1 -0.125 easeinoutsine
+a s_movestage abs_position y 159.5 1 -0.217 easeinoutsine
+a s_movestage abs_position x 160.5 1 0.125 easeinoutsine
+a s_movestage abs_position y 160.5 1 -0.217 easeinoutsine
+a s_movestage abs_position x 161.5 1 0.25 easeinoutsine
+a s_movestage abs_position y 161.5 1 0 easeinoutsine
+a s_movestage abs_position x 162.5 1 0 easeinoutsine
+a s_movestage position y 163.0 0.25 0.0625 easeoutquad
+a s_movestage position y 164.0 0.25 0.0625 easeoutquad
+a s_movestage position z 163.0 1 -0.2 easeoutsine
+a s_movestage position z 164.0 1 0.2 easeinsine
+a s_movestage abs_position y 164.5 0.5 0 easeoutquad
 
 
 
-a s_movestage abs_position x 174.5 1 0.125 EaseInOutSine
-a s_movestage abs_position y 174.5 1 0.217 EaseInOutSine
-a s_movestage abs_position x 175.5 1 -0.125 EaseInOutSine
-a s_movestage abs_position y 175.5 1 -0.217 EaseInOutSine
-a s_movestage abs_position x 176.5 1 0.25 EaseInOutSine
-a s_movestage abs_position y 176.5 1 0 EaseInOutSine
-a s_movestage abs_position x 177.5 1 -0.25 EaseInOutSine
-a s_movestage abs_position y 177.5 1 -0 EaseInOutSine
-a s_movestage position x 179.0 0.25 0.0625 EaseOutQuad
-a s_movestage position x 179.5 0.25 0.0625 EaseOutQuad
-a s_movestage position x 180.0 0.25 0.0625 EaseOutQuad
-a s_movestage abs_position x 180.5 0.25 0 EaseOutQuad
+a s_movestage abs_position x 174.5 1 0.125 easeinoutsine
+a s_movestage abs_position y 174.5 1 0.217 easeinoutsine
+a s_movestage abs_position x 175.5 1 -0.125 easeinoutsine
+a s_movestage abs_position y 175.5 1 -0.217 easeinoutsine
+a s_movestage abs_position x 176.5 1 0.25 easeinoutsine
+a s_movestage abs_position y 176.5 1 0 easeinoutsine
+a s_movestage abs_position x 177.5 1 -0.25 easeinoutsine
+a s_movestage abs_position y 177.5 1 -0 easeinoutsine
+a s_movestage position x 179.0 0.25 0.0625 easeoutquad
+a s_movestage position x 179.5 0.25 0.0625 easeoutquad
+a s_movestage position x 180.0 0.25 0.0625 easeoutquad
+a s_movestage abs_position x 180.5 0.25 0 easeoutquad
 
-a s_movestage abs_position x 182.5 1 -0.125 EaseInOutSine
-a s_movestage abs_position y 182.5 1 0.217 EaseInOutSine
-a s_movestage abs_position x 183.5 1 0.125 EaseInOutSine
-a s_movestage abs_position y 183.5 1 -0.217 EaseInOutSine
-a s_movestage abs_position x 184.5 1 -0.25 EaseInOutSine
-a s_movestage abs_position y 184.5 1 0 EaseInOutSine
-a s_movestage abs_position x 185.5 1 0.25 EaseInOutSine
-a s_movestage abs_position y 185.5 1 -0 EaseInOutSine
-a s_movestage position x 187.0 0.25 -0.0625 EaseOutQuad
-a s_movestage position x 187.5 0.25 -0.0625 EaseOutQuad
-a s_movestage position x 188.0 0.25 -0.0625 EaseOutQuad
-a s_movestage abs_position x 188.5 0.25 0 EaseOutQuad
+a s_movestage abs_position x 182.5 1 -0.125 easeinoutsine
+a s_movestage abs_position y 182.5 1 0.217 easeinoutsine
+a s_movestage abs_position x 183.5 1 0.125 easeinoutsine
+a s_movestage abs_position y 183.5 1 -0.217 easeinoutsine
+a s_movestage abs_position x 184.5 1 -0.25 easeinoutsine
+a s_movestage abs_position y 184.5 1 0 easeinoutsine
+a s_movestage abs_position x 185.5 1 0.25 easeinoutsine
+a s_movestage abs_position y 185.5 1 -0 easeinoutsine
+a s_movestage position x 187.0 0.25 -0.0625 easeoutquad
+a s_movestage position x 187.5 0.25 -0.0625 easeoutquad
+a s_movestage position x 188.0 0.25 -0.0625 easeoutquad
+a s_movestage abs_position x 188.5 0.25 0 easeoutquad
 
-a s_movestage abs_position x 190.5 1 0.25 EaseInOutSine
-a s_movestage abs_position y 190.5 1 0 EaseInOutSine
-a s_movestage abs_position x 191.5 1 0.125 EaseInOutSine
-a s_movestage abs_position y 191.5 1 -0.217 EaseInOutSine
-a s_movestage abs_position x 192.5 1 -0.125 EaseInOutSine
-a s_movestage abs_position y 192.5 1 -0.217 EaseInOutSine
-a s_movestage abs_position x 193.5 1 -0.25 EaseInOutSine
-a s_movestage abs_position y 193.5 1 0 EaseInOutSine
+a s_movestage abs_position x 190.5 1 0.25 easeinoutsine
+a s_movestage abs_position y 190.5 1 0 easeinoutsine
+a s_movestage abs_position x 191.5 1 0.125 easeinoutsine
+a s_movestage abs_position y 191.5 1 -0.217 easeinoutsine
+a s_movestage abs_position x 192.5 1 -0.125 easeinoutsine
+a s_movestage abs_position y 192.5 1 -0.217 easeinoutsine
+a s_movestage abs_position x 193.5 1 -0.25 easeinoutsine
+a s_movestage abs_position y 193.5 1 0 easeinoutsine
 
-a s_movestage abs_position y 194.5 1 0.25 EaseInOutSine
-a s_movestage abs_position y 195.5 1 -0.25 EaseInOutSine
-a s_movestage abs_position y 196.5 1 0 EaseInOutSine
+a s_movestage abs_position y 194.5 1 0.25 easeinoutsine
+a s_movestage abs_position y 195.5 1 -0.25 easeinoutsine
+a s_movestage abs_position y 196.5 1 0 easeinoutsine
 
-a s_movestage abs_position x 194.5 1 0 EaseOutQuad
+a s_movestage abs_position x 194.5 1 0 easeoutquad
 
 
 //炸效果
 
-a movecamera angle 141 1 -1 0 0 EaseInSine
-a s_movecamera position y 141 1 -0.25 EaseOutSine
-a s_movecamera position z 141 1 1 EaseOutSine
+a movecamera angle 141 1 -1 0 0 easeinsine
+a s_movecamera position y 141 1 -0.25 easeoutsine
+a s_movecamera position z 141 1 1 easeoutsine
 
-a movecamera angle 142 1 +1 0 0 EaseInSine
-a s_movecamera position y 142 1 +0.25 EaseOutSine
-a s_movecamera position z 142 1 -1 EaseOutSine
+a movecamera angle 142 1 +1 0 0 easeinsine
+a s_movecamera position y 142 1 +0.25 easeoutsine
+a s_movecamera position z 142 1 -1 easeoutsine
 
-a movecamera angle 149 1 -1 -1 0 EaseInSine
-a s_movecamera position x 149 1 +0.1 EaseOutSine
-a s_movecamera position y 149 1 -0.2 EaseOutSine
-a s_movecamera position z 149 1 1 EaseOutSine
+a movecamera angle 149 1 -1 -1 0 easeinsine
+a s_movecamera position x 149 1 +0.1 easeoutsine
+a s_movecamera position y 149 1 -0.2 easeoutsine
+a s_movecamera position z 149 1 1 easeoutsine
 
-a movecamera angle 150 1 +1 1 0 EaseInSine
-a s_movecamera position x 150 1 -0.1 EaseOutSine
-a s_movecamera position y 150 1 +0.2 EaseOutSine
-a s_movecamera position z 150 1 -1 EaseOutSine
+a movecamera angle 150 1 +1 1 0 easeinsine
+a s_movecamera position x 150 1 -0.1 easeoutsine
+a s_movecamera position y 150 1 +0.2 easeoutsine
+a s_movecamera position z 150 1 -1 easeoutsine
 
-a movecamera angle 157 1 -1 1 0 EaseInSine
-a s_movecamera position x 157 1 -0.1 EaseOutSine
-a s_movecamera position y 157 1 -0.2 EaseOutSine
-a s_movecamera position z 157 1 1 EaseOutSine
+a movecamera angle 157 1 -1 1 0 easeinsine
+a s_movecamera position x 157 1 -0.1 easeoutsine
+a s_movecamera position y 157 1 -0.2 easeoutsine
+a s_movecamera position z 157 1 1 easeoutsine
 
-a movecamera angle 158 1 +1 -1 0 EaseInSine
-a s_movecamera position x 158 1 +0.1 EaseOutSine
-a s_movecamera position y 158 1 +0.2 EaseOutSine
-a s_movecamera position z 158 1 -1 EaseOutSine
-
-
-a s_movecamera angle z 165 8 -180 EaseInOutSine
+a movecamera angle 158 1 +1 -1 0 easeinsine
+a s_movecamera position x 158 1 +0.1 easeoutsine
+a s_movecamera position y 158 1 +0.2 easeoutsine
+a s_movecamera position z 158 1 -1 easeoutsine
 
 
+a s_movecamera angle z 165 8 -180 easeinoutsine
 
-a movecamera angle 173 1 -1 0 0 EaseInSine
-a s_movecamera position y 173 1 -0.25 EaseOutSine
-a s_movecamera position z 173 1 1 EaseOutSine
 
-a movecamera angle 174 1 +1 0 0 EaseInSine
-a s_movecamera position y 174 1 +0.25 EaseOutSine
-a s_movecamera position z 174 1 -1 EaseOutSine
 
-a movecamera angle 181 1 -1 -1 0 EaseInSine
-a s_movecamera position x 181 1 +0.1 EaseOutSine
-a s_movecamera position y 181 1 -0.2 EaseOutSine
-a s_movecamera position z 181 1 1 EaseOutSine
+a movecamera angle 173 1 -1 0 0 easeinsine
+a s_movecamera position y 173 1 -0.25 easeoutsine
+a s_movecamera position z 173 1 1 easeoutsine
 
-a movecamera angle 182 1 +1 1 0 EaseInSine
-a s_movecamera position x 182 1 -0.1 EaseOutSine
-a s_movecamera position y 182 1 +0.2 EaseOutSine
-a s_movecamera position z 182 1 -1 EaseOutSine
+a movecamera angle 174 1 +1 0 0 easeinsine
+a s_movecamera position y 174 1 +0.25 easeoutsine
+a s_movecamera position z 174 1 -1 easeoutsine
 
-a movecamera angle 189 1 -1 1 0 EaseInSine
-a s_movecamera position x 189 1 -0.1 EaseOutSine
-a s_movecamera position y 189 1 -0.2 EaseOutSine
-a s_movecamera position z 189 1 1 EaseOutSine
+a movecamera angle 181 1 -1 -1 0 easeinsine
+a s_movecamera position x 181 1 +0.1 easeoutsine
+a s_movecamera position y 181 1 -0.2 easeoutsine
+a s_movecamera position z 181 1 1 easeoutsine
 
-a movecamera angle 190 1 +1 -1 0 EaseInSine
-a s_movecamera position x 190 1 +0.1 EaseOutSine
-a s_movecamera position y 190 1 +0.2 EaseOutSine
-a s_movecamera position z 190 1 -1 EaseOutSine
+a movecamera angle 182 1 +1 1 0 easeinsine
+a s_movecamera position x 182 1 -0.1 easeoutsine
+a s_movecamera position y 182 1 +0.2 easeoutsine
+a s_movecamera position z 182 1 -1 easeoutsine
+
+a movecamera angle 189 1 -1 1 0 easeinsine
+a s_movecamera position x 189 1 -0.1 easeoutsine
+a s_movecamera position y 189 1 -0.2 easeoutsine
+a s_movecamera position z 189 1 1 easeoutsine
+
+a movecamera angle 190 1 +1 -1 0 easeinsine
+a s_movecamera position x 190 1 +0.1 easeoutsine
+a s_movecamera position y 190 1 +0.2 easeoutsine
+a s_movecamera position z 190 1 -1 easeoutsine
 
 
 
 /bridge rotate
-a movecamera angle 197 4 0 0 -120 EaseInSine
-a movecamera angle 201 4 0 0 -60 EaseOutCubic
+a movecamera angle 197 4 0 0 -120 easeinsine
+a movecamera angle 201 4 0 0 -60 easeoutcubic
 
 /,,1,1, stutter 
-a movecamera angle 221.5 0.5 0 0 -7.5 Linear
-a movecamera angle 222.5 0.5 0 0 +7.5 Linear
-a movecamera angle 223.5 0.5 0 0 +7.5 Linear
-a movecamera angle 224.5 0.5 0 0 -7.5 Linear
+a movecamera angle 221.5 0.5 0 0 -7.5 linear
+a movecamera angle 222.5 0.5 0 0 +7.5 linear
+a movecamera angle 223.5 0.5 0 0 +7.5 linear
+a movecamera angle 224.5 0.5 0 0 -7.5 linear
 
 
-a movecamera angle 229 8 0 0 30 EaseInOutSine
+a movecamera angle 229 8 0 0 30 easeinoutsine
 
 /8th stutter 
-a movecamera angle 243 0 0 0 -2 Linear
-a movecamera angle 243.5 0 0 0 +2 Linear
-a movecamera angle 244 0 0 0 +2 Linear
-a movecamera angle 244.5 0 0 0 -2 Linear
+a movecamera angle 243 0 0 0 -2 linear
+a movecamera angle 243.5 0 0 0 +2 linear
+a movecamera angle 244 0 0 0 +2 linear
+a movecamera angle 244.5 0 0 0 -2 linear
 
 /16th stutter 
-a movecamera angle 251 0 0 0 3.75 Linear
-a movecamera angle 251.25 0 0 0 3.75 Linear
-a movecamera angle 251.5 0 0 0 3.75 Linear
-a movecamera angle 251.75 0 0 0 3.75 Linear
-a movecamera angle 252 0 0 0 3.75 Linear
-a movecamera angle 252.25 0 0 0 3.75 Linear
-a movecamera angle 252.5 0 0 0 3.75 Linear
-a movecamera angle 252.75 0 0 0 3.75 Linear
+a movecamera angle 251 0 0 0 3.75 linear
+a movecamera angle 251.25 0 0 0 3.75 linear
+a movecamera angle 251.5 0 0 0 3.75 linear
+a movecamera angle 251.75 0 0 0 3.75 linear
+a movecamera angle 252 0 0 0 3.75 linear
+a movecamera angle 252.25 0 0 0 3.75 linear
+a movecamera angle 252.5 0 0 0 3.75 linear
+a movecamera angle 252.75 0 0 0 3.75 linear
 
 /bridge rotate
-a s_movecamera angle z 253 16 120 EaseInOutSine 
+a s_movecamera angle z 253 16 120 easeinoutsine 
 
 /quiet part zoom out sway
-a movecamera position 269 8 0 0 -2 Linear
-a movecamera angle 269 4 0 0 -15 EaseInOutSine
-a movecamera angle 273 8 0 0 30 EaseInOutSine 
-a movecamera angle 281 8 0 0 -30 EaseInOutSine
-a movecamera angle 289 8 0 0 30 EaseInOutSine
-a movecamera angle 297 8 0 0 -30 EaseInOutSine
-a movecamera angle 305 8 0 0 30 EaseInOutSine
-a movecamera angle 313 8 0 0 -30 EaseInOutSine
-a movecamera angle 321 8 0 0 30 EaseInOutSine
-a movecamera angle 329 4 0 0 -15 EaseInSine
-a movecamera position 329 4 0 0 2 EaseInQuad
+a movecamera position 269 8 0 0 -2 linear
+a movecamera angle 269 4 0 0 -15 easeinoutsine
+a movecamera angle 273 8 0 0 30 easeinoutsine 
+a movecamera angle 281 8 0 0 -30 easeinoutsine
+a movecamera angle 289 8 0 0 30 easeinoutsine
+a movecamera angle 297 8 0 0 -30 easeinoutsine
+a movecamera angle 305 8 0 0 30 easeinoutsine
+a movecamera angle 313 8 0 0 -30 easeinoutsine
+a movecamera angle 321 8 0 0 30 easeinoutsine
+a movecamera angle 329 4 0 0 -15 easeinsine
+a movecamera position 329 4 0 0 2 easeinquad
 
-//實驗性質(Sine前半峰)
+//實驗性質(sine前半峰)
 /*
-a s_movestage abs_position z 307.0000 0 0.04 Linear
-a s_movestage abs_position z 307.051388889 0 -0.08 Linear
-a s_movestage abs_position z 307.102777778 0 0.12 Linear
-a s_movestage abs_position z 307.154166667 0 -0.16 Linear
-a s_movestage abs_position z 307.205555556 0 0.20 Linear
-a s_movestage abs_position z 307.256944444 0 -0.24 Linear
-a s_movestage abs_position z 307.308333333 0 0.28 Linear
-a s_movestage abs_position z 307.359722222 0 -0.32 Linear
-a s_movestage abs_position z 307.411111111 0 0.39 Linear
-a s_movestage abs_position z 307.4625 0 -0.43 Linear
-a s_movestage abs_position z 307.513888889 0 0.47 Linear
-a s_movestage abs_position z 307.565277778 0 -0.50 Linear
-a s_movestage abs_position z 307.616666667 0 0.54 Linear
-a s_movestage abs_position z 307.668055555 0 -0.57 Linear
-a s_movestage abs_position z 307.719444444 0 0.60 Linear
-a s_movestage abs_position z 307.770833333 0 -0.63 Linear
-a s_movestage abs_position z 307.822222222 0 0.66 Linear
-a s_movestage abs_position z 307.873611111 0 -0.69 Linear
-a s_movestage abs_position z 307.925 0 0.72 Linear
-a s_movestage abs_position z 307.976388889 0 -0.75 Linear
-a s_movestage abs_position z 308.027777778 0 0.78 Linear
-a s_movestage abs_position z 308.079166666 0 -0.80 Linear
-a s_movestage abs_position z 308.130555555 0 0.82 Linear
-a s_movestage abs_position z 308.181944444 0 -0.85 Linear
-a s_movestage abs_position z 308.233333333 0 0.87 Linear
-a s_movestage abs_position z 308.284722222 0 -0.89 Linear
-a s_movestage abs_position z 308.336111111 0 0.90 Linear
-a s_movestage abs_position z 308.3875 0 -0.92 Linear
-a s_movestage abs_position z 308.438888889 0 0.94 Linear
-a s_movestage abs_position z 308.490277778 0 -0.95 Linear
-a s_movestage abs_position z 308.541666666 0 0.96 Linear
-a s_movestage abs_position z 308.593055555 0 -0.97 Linear
-a s_movestage abs_position z 308.644444444 0 0.98 Linear
-a s_movestage abs_position z 308.695833333 0 -0.99 Linear
-a s_movestage abs_position z 308.747222222 0 1 Linear
-a s_movestage abs_position z 308.798611111 0 -1 Linear
-a s_movestage abs_position z 308.85 0 1 Linear
-a s_movestage abs_position z 308.901388889 0 -1 Linear
-a s_movestage abs_position z 308.952777777 0 1 Linear
-a s_movestage abs_position z 309.004166666 0 -0.99 Linear
-a s_movestage abs_position z 309.055555555 0 0.98 Linear
-a s_movestage abs_position z 309.106944444 0 -0.97 Linear
-a s_movestage abs_position z 309.158333333 0 0.96 Linear
-a s_movestage abs_position z 309.209722222 0 -0.95 Linear
-a s_movestage abs_position z 309.261111111 0 0.93 Linear
-a s_movestage abs_position z 309.3125 0 -0.92 Linear
-a s_movestage abs_position z 309.363888888 0 0.90 Linear
-a s_movestage abs_position z 309.415277777 0 -0.88 Linear
-a s_movestage abs_position z 309.466666666 0 0.86 Linear
-a s_movestage abs_position z 309.518055555 0 -0.84 Linear
-a s_movestage abs_position z 309.569444444 0 0.82 Linear
-a s_movestage abs_position z 309.620833333 0 -0.80 Linear
-a s_movestage abs_position z 309.672222222 0 0.77 Linear
-a s_movestage abs_position z 309.723611111 0 -0.75 Linear
-a s_movestage abs_position z 309.775 0 0.72 Linear
-a s_movestage abs_position z 309.826388888 0 -0.69 Linear
-a s_movestage abs_position z 309.877777777 0 0.66 Linear
-a s_movestage abs_position z 309.929166666 0 -0.63 Linear
-a s_movestage abs_position z 309.980555555 0 0.60 Linear
-a s_movestage abs_position z 310.031944444 0 -0.56 Linear
-a s_movestage abs_position z 310.083333333 0 0.53 Linear
-a s_movestage abs_position z 310.134722222 0 -0.50 Linear
-a s_movestage abs_position z 310.186111111 0 0.46 Linear
-a s_movestage abs_position z 310.237499999 0 -0.42 Linear
-a s_movestage abs_position z 310.288888888 0 0.39 Linear
-a s_movestage abs_position z 310.340277777 0 -0.35 Linear
-a s_movestage abs_position z 310.391666666 0 0.31 Linear
-a s_movestage abs_position z 310.443055555 0 -0.27 Linear
-a s_movestage abs_position z 310.494444444 0 0.23 Linear
-a s_movestage abs_position z 310.545833333 0 -0.19 Linear
-a s_movestage abs_position z 310.597222222 0 0.15 Linear
-a s_movestage abs_position z 310.64861111 0 -0.11 Linear
-a s_movestage abs_position z 310.699999999 0 0.07 Linear
-a s_movestage abs_position z 310.751388888 0 -0.3 Linear
-a s_movestage abs_position z 310.802777777 0 0.0 Linear
-a s_movestage abs_position z 310.854166666 0 -0.0 Linear
-a s_movestage abs_position z 310.905555555 0 0.0 Linear
-a s_movestage abs_position z 310.956944444 0 -0.0 Linear
-a s_movestage abs_position z 310.008333333 0 0.0 Linear
+a s_movestage abs_position z 307.0000 0 0.04 linear
+a s_movestage abs_position z 307.051388889 0 -0.08 linear
+a s_movestage abs_position z 307.102777778 0 0.12 linear
+a s_movestage abs_position z 307.154166667 0 -0.16 linear
+a s_movestage abs_position z 307.205555556 0 0.20 linear
+a s_movestage abs_position z 307.256944444 0 -0.24 linear
+a s_movestage abs_position z 307.308333333 0 0.28 linear
+a s_movestage abs_position z 307.359722222 0 -0.32 linear
+a s_movestage abs_position z 307.411111111 0 0.39 linear
+a s_movestage abs_position z 307.4625 0 -0.43 linear
+a s_movestage abs_position z 307.513888889 0 0.47 linear
+a s_movestage abs_position z 307.565277778 0 -0.50 linear
+a s_movestage abs_position z 307.616666667 0 0.54 linear
+a s_movestage abs_position z 307.668055555 0 -0.57 linear
+a s_movestage abs_position z 307.719444444 0 0.60 linear
+a s_movestage abs_position z 307.770833333 0 -0.63 linear
+a s_movestage abs_position z 307.822222222 0 0.66 linear
+a s_movestage abs_position z 307.873611111 0 -0.69 linear
+a s_movestage abs_position z 307.925 0 0.72 linear
+a s_movestage abs_position z 307.976388889 0 -0.75 linear
+a s_movestage abs_position z 308.027777778 0 0.78 linear
+a s_movestage abs_position z 308.079166666 0 -0.80 linear
+a s_movestage abs_position z 308.130555555 0 0.82 linear
+a s_movestage abs_position z 308.181944444 0 -0.85 linear
+a s_movestage abs_position z 308.233333333 0 0.87 linear
+a s_movestage abs_position z 308.284722222 0 -0.89 linear
+a s_movestage abs_position z 308.336111111 0 0.90 linear
+a s_movestage abs_position z 308.3875 0 -0.92 linear
+a s_movestage abs_position z 308.438888889 0 0.94 linear
+a s_movestage abs_position z 308.490277778 0 -0.95 linear
+a s_movestage abs_position z 308.541666666 0 0.96 linear
+a s_movestage abs_position z 308.593055555 0 -0.97 linear
+a s_movestage abs_position z 308.644444444 0 0.98 linear
+a s_movestage abs_position z 308.695833333 0 -0.99 linear
+a s_movestage abs_position z 308.747222222 0 1 linear
+a s_movestage abs_position z 308.798611111 0 -1 linear
+a s_movestage abs_position z 308.85 0 1 linear
+a s_movestage abs_position z 308.901388889 0 -1 linear
+a s_movestage abs_position z 308.952777777 0 1 linear
+a s_movestage abs_position z 309.004166666 0 -0.99 linear
+a s_movestage abs_position z 309.055555555 0 0.98 linear
+a s_movestage abs_position z 309.106944444 0 -0.97 linear
+a s_movestage abs_position z 309.158333333 0 0.96 linear
+a s_movestage abs_position z 309.209722222 0 -0.95 linear
+a s_movestage abs_position z 309.261111111 0 0.93 linear
+a s_movestage abs_position z 309.3125 0 -0.92 linear
+a s_movestage abs_position z 309.363888888 0 0.90 linear
+a s_movestage abs_position z 309.415277777 0 -0.88 linear
+a s_movestage abs_position z 309.466666666 0 0.86 linear
+a s_movestage abs_position z 309.518055555 0 -0.84 linear
+a s_movestage abs_position z 309.569444444 0 0.82 linear
+a s_movestage abs_position z 309.620833333 0 -0.80 linear
+a s_movestage abs_position z 309.672222222 0 0.77 linear
+a s_movestage abs_position z 309.723611111 0 -0.75 linear
+a s_movestage abs_position z 309.775 0 0.72 linear
+a s_movestage abs_position z 309.826388888 0 -0.69 linear
+a s_movestage abs_position z 309.877777777 0 0.66 linear
+a s_movestage abs_position z 309.929166666 0 -0.63 linear
+a s_movestage abs_position z 309.980555555 0 0.60 linear
+a s_movestage abs_position z 310.031944444 0 -0.56 linear
+a s_movestage abs_position z 310.083333333 0 0.53 linear
+a s_movestage abs_position z 310.134722222 0 -0.50 linear
+a s_movestage abs_position z 310.186111111 0 0.46 linear
+a s_movestage abs_position z 310.237499999 0 -0.42 linear
+a s_movestage abs_position z 310.288888888 0 0.39 linear
+a s_movestage abs_position z 310.340277777 0 -0.35 linear
+a s_movestage abs_position z 310.391666666 0 0.31 linear
+a s_movestage abs_position z 310.443055555 0 -0.27 linear
+a s_movestage abs_position z 310.494444444 0 0.23 linear
+a s_movestage abs_position z 310.545833333 0 -0.19 linear
+a s_movestage abs_position z 310.597222222 0 0.15 linear
+a s_movestage abs_position z 310.64861111 0 -0.11 linear
+a s_movestage abs_position z 310.699999999 0 0.07 linear
+a s_movestage abs_position z 310.751388888 0 -0.3 linear
+a s_movestage abs_position z 310.802777777 0 0.0 linear
+a s_movestage abs_position z 310.854166666 0 -0.0 linear
+a s_movestage abs_position z 310.905555555 0 0.0 linear
+a s_movestage abs_position z 310.956944444 0 -0.0 linear
+a s_movestage abs_position z 310.008333333 0 0.0 linear
 */
 
 //啊~~變色
-a changecolor trial 305 8 0_0_0_0 rt rc rb lb lc lt Linear
-a changecolor trial 314 6 0_0_0_145 lb EaseOutSine
-a changecolor trial 316.75 3.25 0_0_0_145 rb EaseOutSine
-a changecolor trial 320 11 0_0_0_145 rc EaseOutSine
-a changecolor trial 321.25 9.75 0_0_0_145 lc EaseOutSine
-a changecolor trial 325 3 0_0_0_145 lt Linear
-a changecolor trial 329 3 0_0_0_145 rt Linear
+a changecolor trial 305 8 0_0_0_0 rt rc rb lb lc lt linear
+a changecolor trial 314 6 0_0_0_145 lb easeoutsine
+a changecolor trial 316.75 3.25 0_0_0_145 rb easeoutsine
+a changecolor trial 320 11 0_0_0_145 rc easeoutsine
+a changecolor trial 321.25 9.75 0_0_0_145 lc easeoutsine
+a changecolor trial 325 3 0_0_0_145 lt linear
+a changecolor trial 329 3 0_0_0_145 rt linear
 
-a changecolor hitbox_default 305 8 255_255_255_0 rt rc rb lb lc lt Linear
-a changecolor hitbox_default 314 6 255_255_255_255 lb EaseOutSine
-a changecolor hitbox_default 316.75 3.25 255_255_255_255 rb EaseOutSine
-a changecolor hitbox_default 320 11 255_255_255_255 rc EaseOutSine
-a changecolor hitbox_default 321.25 9.75 255_255_255_255 lc EaseOutSine
-a changecolor hitbox_default 325 3 255_255_255_255 lt Linear
-a changecolor hitbox_default 329 3 255_255_255_255 rt Linear
+a changecolor hitbox_default 305 8 255_255_255_0 rt rc rb lb lc lt linear
+a changecolor hitbox_default 314 6 255_255_255_255 lb easeoutsine
+a changecolor hitbox_default 316.75 3.25 255_255_255_255 rb easeoutsine
+a changecolor hitbox_default 320 11 255_255_255_255 rc easeoutsine
+a changecolor hitbox_default 321.25 9.75 255_255_255_255 lc easeoutsine
+a changecolor hitbox_default 325 3 255_255_255_255 lt linear
+a changecolor hitbox_default 329 3 255_255_255_255 rt linear
 
 
 //bounce position
-a s_movestage abs_position x 349 2 0.3 EaseOutSine
-a s_movestage abs_position y 349 2 0 EaseOutSine
-a s_movestage abs_position x 351 4 -0.3 EaseInOutSine
-a s_movestage abs_position y 351 4 0 EaseInOutSine
-a s_movestage abs_position x 355 2 0 EaseInSine
-a s_movestage abs_position y 355 2 0 EaseInSine
+a s_movestage abs_position x 349 2 0.3 easeoutsine
+a s_movestage abs_position y 349 2 0 easeoutsine
+a s_movestage abs_position x 351 4 -0.3 easeinoutsine
+a s_movestage abs_position y 351 4 0 easeinoutsine
+a s_movestage abs_position x 355 2 0 easeinsine
+a s_movestage abs_position y 355 2 0 easeinsine
 
-a movecamera position 349.0 0.5 0 -0.1 0 EaseOutSine
-a movecamera position 349.5 0.5 0 +0.1 0 EaseInSine
-a movecamera position 350.0 0.5 0 -0.1 0 EaseOutSine
-a movecamera position 350.5 0.5 0 +0.1 0 EaseInSine
-a movecamera position 351.0 0.5 0 -0.1 0 EaseOutSine
-a movecamera position 351.5 0.5 0 +0.1 0 EaseInSine
-a movecamera position 352.0 0.5 0 -0.1 0 EaseOutSine
-a movecamera position 352.5 0.5 0 +0.1 0 EaseInSine
+a movecamera position 349.0 0.5 0 -0.1 0 easeoutsine
+a movecamera position 349.5 0.5 0 +0.1 0 easeinsine
+a movecamera position 350.0 0.5 0 -0.1 0 easeoutsine
+a movecamera position 350.5 0.5 0 +0.1 0 easeinsine
+a movecamera position 351.0 0.5 0 -0.1 0 easeoutsine
+a movecamera position 351.5 0.5 0 +0.1 0 easeinsine
+a movecamera position 352.0 0.5 0 -0.1 0 easeoutsine
+a movecamera position 352.5 0.5 0 +0.1 0 easeinsine
 
-a movecamera position 353.0 0.5 0 -0.1 0 EaseOutSine
-a movecamera position 353.5 0.5 0 +0.1 0 EaseInSine
-a movecamera position 354.0 0.5 0 -0.1 0 EaseOutSine
-a movecamera position 354.5 0.5 0 +0.1 0 EaseInSine
-a movecamera position 355.0 0.5 0 -0.1 0 EaseOutSine
-a movecamera position 355.5 0.5 0 +0.1 0 EaseInSine
-a movecamera position 356.0 0.5 0 -0.1 0 EaseOutSine
-a movecamera position 356.5 0.5 0 +0.1 0 EaseInSine
+a movecamera position 353.0 0.5 0 -0.1 0 easeoutsine
+a movecamera position 353.5 0.5 0 +0.1 0 easeinsine
+a movecamera position 354.0 0.5 0 -0.1 0 easeoutsine
+a movecamera position 354.5 0.5 0 +0.1 0 easeinsine
+a movecamera position 355.0 0.5 0 -0.1 0 easeoutsine
+a movecamera position 355.5 0.5 0 +0.1 0 easeinsine
+a movecamera position 356.0 0.5 0 -0.1 0 easeoutsine
+a movecamera position 356.5 0.5 0 +0.1 0 easeinsine
 
 //bounce angle
-a movecamera angle 349 1 0 0 3.75 Linear
-a movecamera angle 350 1 0 0 -3.75 Linear
-a movecamera angle 351 1 0 0 3.75 Linear
-a movecamera angle 352 1 0 0 -3.75 Linear
-a movecamera angle 353 1 0 0 3.75 Linear
-a movecamera angle 354 1 0 0 -3.75 Linear
-a movecamera angle 355 1 0 0 3.75 Linear
-a movecamera angle 356 1 0 0 -3.75 Linear
+a movecamera angle 349 1 0 0 3.75 linear
+a movecamera angle 350 1 0 0 -3.75 linear
+a movecamera angle 351 1 0 0 3.75 linear
+a movecamera angle 352 1 0 0 -3.75 linear
+a movecamera angle 353 1 0 0 3.75 linear
+a movecamera angle 354 1 0 0 -3.75 linear
+a movecamera angle 355 1 0 0 3.75 linear
+a movecamera angle 356 1 0 0 -3.75 linear
 
 
 
-a s_movecamera position z 357.00 0.5 0.5 EaseOutQuad
-a s_movecamera position z 357.50 0.5 -0.25 EaseInSine
-a s_movecamera position z 358.00 0.5 0.5 EaseOutQuad
-a s_movecamera position z 358.50 0.5 -0.25 EaseInSine
-a s_movecamera position z 359.00 1 0.5 EaseOutSine
-a s_movecamera position y 359.00 1 0.25 EaseOutSine
-a s_movecamera angle x 359.00 1 2.5 EaseOutSine
-a s_movecamera position z 360.00 1 3 EaseOutSine
-a s_movecamera position y 360.00 1 0.25 EaseOutSine
-a s_movecamera angle x 360.00 1 50 EaseOutSine
+a s_movecamera position z 357.00 0.5 0.5 easeoutquad
+a s_movecamera position z 357.50 0.5 -0.25 easeinsine
+a s_movecamera position z 358.00 0.5 0.5 easeoutquad
+a s_movecamera position z 358.50 0.5 -0.25 easeinsine
+a s_movecamera position z 359.00 1 0.5 easeoutsine
+a s_movecamera position y 359.00 1 0.25 easeoutsine
+a s_movecamera angle x 359.00 1 2.5 easeoutsine
+a s_movecamera position z 360.00 1 3 easeoutsine
+a s_movecamera position y 360.00 1 0.25 easeoutsine
+a s_movecamera angle x 360.00 1 50 easeoutsine
 
-a s_movecamera abs_angle x 361.00 0 0 Linear
-a s_movecamera abs_angle y 361.00 0 0 Linear
-a s_movecamera abs_position x 361.00 0 0 Linear
-a s_movecamera abs_position y 361.00 0 0 Linear
-a s_movecamera abs_position z 361.00 3 -6.2 Linear
-/a s_movecamera position y 361.01 2.99 1 EaseInQuad
+a s_movecamera abs_angle x 361.00 0 0 linear
+a s_movecamera abs_angle y 361.00 0 0 linear
+a s_movecamera abs_position x 361.00 0 0 linear
+a s_movecamera abs_position y 361.00 0 0 linear
+a s_movecamera abs_position z 361.00 3 -6.2 linear
+/a s_movecamera position y 361.01 2.99 1 easeinquad
 
-a s_movestage position z 361.00 0 -30 Linear
-a s_movestage position z 361.125 0 30 Linear
-a s_movestage position z 361.25 0 -30 Linear
-a s_movestage position z 361.375 0 30 Linear
-a s_movestage position z 361.50 0 -30 Linear
-a s_movestage position z 361.625 0 30 Linear
-a s_movestage position z 361.75 0 -30 Linear
-a s_movestage position z 361.875 0 30 Linear
-a s_movestage position z 362.00 0 -30 Linear
-a s_movestage position z 362.125 0 30 Linear
-a s_movestage position z 362.25 0 -30 Linear
-a s_movestage position z 362.375 0 30 Linear
-a s_movestage position z 362.50 0 -30 Linear
-a s_movestage position z 362.625 0 30 Linear
-a s_movestage position z 362.75 0 -30 Linear
-a s_movestage position z 362.875 0 30 Linear
-a s_movestage position z 363.00 0 -30 Linear
-a s_movestage position z 363.125 0 30 Linear
-a s_movestage position z 363.25 0 -30 Linear
-a s_movestage position z 363.375 0 30 Linear
-a s_movestage position z 363.50 0 -30 Linear
-a s_movestage position z 363.625 0 30 Linear
-a s_movestage position z 363.75 0 -30 Linear
-a s_movestage position z 363.875 0 30 Linear
-
-
-a s_movestage position z 394.5 1 2 EaseOutQuad
-a s_movestage position z 395.5 1 -2 EaseOutQuad
-a s_movecamera angle z 411 10 180 EaseInOutSine
-
-a s_movecamera angle z 421 4 180 EaseInOutSine
-
-a s_movecamera angle z 427 2 -180 EaseOutQuad
+a s_movestage position z 361.00 0 -30 linear
+a s_movestage position z 361.125 0 30 linear
+a s_movestage position z 361.25 0 -30 linear
+a s_movestage position z 361.375 0 30 linear
+a s_movestage position z 361.50 0 -30 linear
+a s_movestage position z 361.625 0 30 linear
+a s_movestage position z 361.75 0 -30 linear
+a s_movestage position z 361.875 0 30 linear
+a s_movestage position z 362.00 0 -30 linear
+a s_movestage position z 362.125 0 30 linear
+a s_movestage position z 362.25 0 -30 linear
+a s_movestage position z 362.375 0 30 linear
+a s_movestage position z 362.50 0 -30 linear
+a s_movestage position z 362.625 0 30 linear
+a s_movestage position z 362.75 0 -30 linear
+a s_movestage position z 362.875 0 30 linear
+a s_movestage position z 363.00 0 -30 linear
+a s_movestage position z 363.125 0 30 linear
+a s_movestage position z 363.25 0 -30 linear
+a s_movestage position z 363.375 0 30 linear
+a s_movestage position z 363.50 0 -30 linear
+a s_movestage position z 363.625 0 30 linear
+a s_movestage position z 363.75 0 -30 linear
+a s_movestage position z 363.875 0 30 linear
 
 
-a s_movecamera position z 419 2 -2 EaseOutSine
-a s_movecamera position z 421 4 4 EaseOutSine
-a s_movecamera position z 425 2 -2 EaseOutSine
+a s_movestage position z 394.5 1 2 easeoutquad
+a s_movestage position z 395.5 1 -2 easeoutquad
+a s_movecamera angle z 411 10 180 easeinoutsine
+
+a s_movecamera angle z 421 4 180 easeinoutsine
+
+a s_movecamera angle z 427 2 -180 easeoutquad
+
+
+a s_movecamera position z 419 2 -2 easeoutsine
+a s_movecamera position z 421 4 4 easeoutsine
+a s_movecamera position z 425 2 -2 easeoutsine
 a s_movecamera angle z 429 31 348.75 linear
-a s_movecamera angle z 460.0 0.25 5.625 EaseOutSine
-a s_movecamera angle z 460.5 0.25 5.625 EaseOutSine
+a s_movecamera angle z 460.0 0.25 5.625 easeoutsine
+a s_movecamera angle z 460.5 0.25 5.625 easeoutsine
 
-a changestage cluster 474.5 1 EaseOutSine
-a changestage classichexagon 475.5 1 EaseOutBack
-a s_movecamera angle z 475.5 1.5 -30 EaseOutSine
+a changestage cluster 474.5 1 easeoutsine
+a changestage classichexagon 475.5 1 easeoutback
+a s_movecamera angle z 475.5 1.5 -30 easeoutsine
 
 
 //zoom*12
-a s_movecamera angle x 477.5 1 0.866025 EaseOutCubic
-a s_movecamera angle y 477.5 1 -0.5 EaseOutCubic
-a s_movecamera angle x 478.5 1 0.866025 EaseOutCubic
-a s_movecamera angle y 478.5 1 -0.5 EaseOutCubic
-a s_movecamera angle x 479.5 1 0.866025 EaseOutCubic
-a s_movecamera angle y 479.5 1 -0.5 EaseOutCubic
-a s_movecamera angle x 480.5 1 0.866025 EaseOutCubic
-a s_movecamera angle y 480.5 1 -0.5 EaseOutCubic
-a s_movecamera angle x 481.5 1 0.866025 EaseOutCubic
-a s_movecamera angle y 481.5 1 -0.5 EaseOutCubic
-a s_movecamera angle x 482.5 1 0.866025 EaseOutCubic
-a s_movecamera angle y 482.5 1 -0.5 EaseOutCubic
-a s_movecamera angle x 483.5 1 0.866025 EaseOutCubic
-a s_movecamera angle y 483.5 1 -0.5 EaseOutCubic
-a s_movecamera angle x 484.5 1 0.866025 EaseOutCubic
-a s_movecamera angle y 484.5 1 -0.5 EaseOutCubic
+a s_movecamera angle x 477.5 1 0.866025 easeoutcubic
+a s_movecamera angle y 477.5 1 -0.5 easeoutcubic
+a s_movecamera angle x 478.5 1 0.866025 easeoutcubic
+a s_movecamera angle y 478.5 1 -0.5 easeoutcubic
+a s_movecamera angle x 479.5 1 0.866025 easeoutcubic
+a s_movecamera angle y 479.5 1 -0.5 easeoutcubic
+a s_movecamera angle x 480.5 1 0.866025 easeoutcubic
+a s_movecamera angle y 480.5 1 -0.5 easeoutcubic
+a s_movecamera angle x 481.5 1 0.866025 easeoutcubic
+a s_movecamera angle y 481.5 1 -0.5 easeoutcubic
+a s_movecamera angle x 482.5 1 0.866025 easeoutcubic
+a s_movecamera angle y 482.5 1 -0.5 easeoutcubic
+a s_movecamera angle x 483.5 1 0.866025 easeoutcubic
+a s_movecamera angle y 483.5 1 -0.5 easeoutcubic
+a s_movecamera angle x 484.5 1 0.866025 easeoutcubic
+a s_movecamera angle y 484.5 1 -0.5 easeoutcubic
 
-a s_movecamera position x 477.5 1 -0.05 EaseOutCubic
-a s_movecamera position y 477.5 1 -0.0866025 EaseOutCubic
-a s_movecamera position x 478.5 1 -0.05 EaseOutCubic
-a s_movecamera position y 478.5 1 -0.0866025 EaseOutCubic
-a s_movecamera position x 479.5 1 -0.05 EaseOutCubic
-a s_movecamera position y 479.5 1 -0.0866025 EaseOutCubic
-a s_movecamera position x 480.5 1 -0.05 EaseOutCubic
-a s_movecamera position y 480.5 1 -0.0866025 EaseOutCubic
-a s_movecamera position x 481.5 1 -0.05 EaseOutCubic
-a s_movecamera position y 481.5 1 -0.0866025 EaseOutCubic
-a s_movecamera position x 482.5 1 -0.05 EaseOutCubic
-a s_movecamera position y 482.5 1 -0.0866025 EaseOutCubic
-a s_movecamera position x 483.5 1 -0.05 EaseOutCubic
-a s_movecamera position y 483.5 1 -0.0866025 EaseOutCubic
-a s_movecamera position x 484.5 1 -0.05 EaseOutCubic
-a s_movecamera position y 484.5 1 -0.0866025 EaseOutCubic
-
-
-
-a s_movecamera position z 477.5 0.75 0.3 EaseOutCubic
-a s_movecamera position z 478.25 0.25 -0.1 EaseInSine
-a s_movecamera position z 478.5 0.75 0.3 EaseOutCubic
-a s_movecamera position z 479.25 0.25 -0.1 EaseInSine
-a s_movecamera position z 479.5 0.75 0.3 EaseOutCubic
-a s_movecamera position z 480.25 0.25 -0.1 EaseInSine
-a s_movecamera position z 480.5 0.75 0.3 EaseOutCubic
-a s_movecamera position z 481.25 0.25 -0.1 EaseInSine
-a s_movecamera position z 481.5 0.75 0.3 EaseOutCubic
-a s_movecamera position z 482.25 0.25 -0.1 EaseInSine
-a s_movecamera position z 482.5 0.75 0.3 EaseOutCubic
-a s_movecamera position z 483.25 0.25 -0.1 EaseInSine
-a s_movecamera position z 483.5 0.75 0.3 EaseOutCubic
-a s_movecamera position z 484.25 0.25 -0.1 EaseInSine
-a s_movecamera position z 484.5 0.75 0.3 EaseOutCubic
-a s_movecamera position z 485.25 0.25 -0.1 EaseInSine
-a s_movecamera position z 485.5 0.75 0.4 EaseOutCubic
-a s_movecamera position z 486.25 0.25 -0.1 EaseInSine
-a s_movecamera position z 486.5 0.75 0.4 EaseOutCubic
-a s_movecamera position z 487.25 0.25 -0.1 EaseInSine
-a s_movecamera position z 487.5 0.75 0.4 EaseOutCubic
-a s_movecamera position z 488.25 0.25 -0.1 EaseInSine
-a s_movecamera position z 488.5 0.5 1.0 EaseOutCubic
-
-a s_movecamera angle x 489 2 -6.928 EaseOutCubic
-a s_movecamera angle y 489 2 4 EaseOutCubic
+a s_movecamera position x 477.5 1 -0.05 easeoutcubic
+a s_movecamera position y 477.5 1 -0.0866025 easeoutcubic
+a s_movecamera position x 478.5 1 -0.05 easeoutcubic
+a s_movecamera position y 478.5 1 -0.0866025 easeoutcubic
+a s_movecamera position x 479.5 1 -0.05 easeoutcubic
+a s_movecamera position y 479.5 1 -0.0866025 easeoutcubic
+a s_movecamera position x 480.5 1 -0.05 easeoutcubic
+a s_movecamera position y 480.5 1 -0.0866025 easeoutcubic
+a s_movecamera position x 481.5 1 -0.05 easeoutcubic
+a s_movecamera position y 481.5 1 -0.0866025 easeoutcubic
+a s_movecamera position x 482.5 1 -0.05 easeoutcubic
+a s_movecamera position y 482.5 1 -0.0866025 easeoutcubic
+a s_movecamera position x 483.5 1 -0.05 easeoutcubic
+a s_movecamera position y 483.5 1 -0.0866025 easeoutcubic
+a s_movecamera position x 484.5 1 -0.05 easeoutcubic
+a s_movecamera position y 484.5 1 -0.0866025 easeoutcubic
 
 
 
+a s_movecamera position z 477.5 0.75 0.3 easeoutcubic
+a s_movecamera position z 478.25 0.25 -0.1 easeinsine
+a s_movecamera position z 478.5 0.75 0.3 easeoutcubic
+a s_movecamera position z 479.25 0.25 -0.1 easeinsine
+a s_movecamera position z 479.5 0.75 0.3 easeoutcubic
+a s_movecamera position z 480.25 0.25 -0.1 easeinsine
+a s_movecamera position z 480.5 0.75 0.3 easeoutcubic
+a s_movecamera position z 481.25 0.25 -0.1 easeinsine
+a s_movecamera position z 481.5 0.75 0.3 easeoutcubic
+a s_movecamera position z 482.25 0.25 -0.1 easeinsine
+a s_movecamera position z 482.5 0.75 0.3 easeoutcubic
+a s_movecamera position z 483.25 0.25 -0.1 easeinsine
+a s_movecamera position z 483.5 0.75 0.3 easeoutcubic
+a s_movecamera position z 484.25 0.25 -0.1 easeinsine
+a s_movecamera position z 484.5 0.75 0.3 easeoutcubic
+a s_movecamera position z 485.25 0.25 -0.1 easeinsine
+a s_movecamera position z 485.5 0.75 0.4 easeoutcubic
+a s_movecamera position z 486.25 0.25 -0.1 easeinsine
+a s_movecamera position z 486.5 0.75 0.4 easeoutcubic
+a s_movecamera position z 487.25 0.25 -0.1 easeinsine
+a s_movecamera position z 487.5 0.75 0.4 easeoutcubic
+a s_movecamera position z 488.25 0.25 -0.1 easeinsine
+a s_movecamera position z 488.5 0.5 1.0 easeoutcubic
 
-a s_movecamera abs_position y 489 2 0 Linear
-a s_movecamera abs_position x 489 2 0 Linear
-
-
-a s_movecamera angle z 489 2 700 EaseInQuad
-a s_movecamera abs_position z 489 1 6.2 EaseInSine
-
-a s_movecamera position z 490 3 -12.2 EaseOutQuad
-a s_movecamera angle z 491 2 50 EaseOutQuad
-
-
-a movecamera position 501.5 16 0 0 -7.5 EaseOutQuad 
-a movecamera angle 501.5 4 0 0 15 EaseOutSine
-a movecamera angle 505.5 8 0 0 -30 EaseInOutSine
-a movecamera angle 513.5 8 0 0 20 EaseInOutSine
-a movecamera angle 521.5 4 0 0 -5 EaseInOutSine
-
-
-a changecolor trial 501.5 7.5 0_0_0_0 rt rc rb lb lc lt Linear
-a changecolor hitbox_default 501.5 7.5 255_255_255_0 rt rc rb lb lc lt Linear
+a s_movecamera angle x 489 2 -6.928 easeoutcubic
+a s_movecamera angle y 489 2 4 easeoutcubic
 
 
 
-//CHART
+
+a s_movecamera abs_position y 489 2 0 linear
+a s_movecamera abs_position x 489 2 0 linear
+
+
+a s_movecamera angle z 489 2 700 easeinquad
+a s_movecamera abs_position z 489 1 6.2 easeinsine
+
+a s_movecamera position z 490 3 -12.2 easeoutquad
+a s_movecamera angle z 491 2 50 easeoutquad
+
+
+a movecamera position 501.5 16 0 0 -7.5 easeoutquad 
+a movecamera angle 501.5 4 0 0 15 easeoutsine
+a movecamera angle 505.5 8 0 0 -30 easeinoutsine
+a movecamera angle 513.5 8 0 0 20 easeinoutsine
+a movecamera angle 521.5 4 0 0 -5 easeinoutsine
+
+
+a changecolor trial 501.5 7.5 0_0_0_0 rt rc rb lb lc lt linear
+a changecolor hitbox_default 501.5 7.5 255_255_255_0 rt rc rb lb lc lt linear
+
+
+
+//chart
 
 n short lt 1.00
 n catch lc 1.25
@@ -2128,565 +2128,565 @@ n long lb 501.5 509
 
 
 
-//SCREEN PUMP
-a s_movecamera position z 77 0.25 0.2 EaseOutQuad
-a s_movecamera position z 77.25 0.75 -0.2 EaseInSine
-a s_movecamera position z 78 0.25 0.2 EaseOutQuad
-a s_movecamera position z 78.25 0.75 -0.2 EaseInSine
-a s_movecamera position z 79 0.25 0.2 EaseOutQuad
-a s_movecamera position z 79.25 0.75 -0.2 EaseInSine
-a s_movecamera position z 80 0.25 0.2 EaseOutQuad
-a s_movecamera position z 80.25 0.75 -0.2 EaseInSine
-a s_movecamera position z 81 0.25 0.2 EaseOutQuad
-a s_movecamera position z 81.25 0.75 -0.2 EaseInSine
-a s_movecamera position z 82 0.25 0.2 EaseOutQuad
-a s_movecamera position z 82.25 0.75 -0.2 EaseInSine
-a s_movecamera position z 83 0.25 0.2 EaseOutQuad
-a s_movecamera position z 83.25 0.75 -0.2 EaseInSine
-a s_movecamera position z 84 0.25 0.2 EaseOutQuad
-a s_movecamera position z 84.25 0.75 -0.2 EaseInSine
-a s_movecamera position z 85 0.25 0.2 EaseOutQuad
-a s_movecamera position z 85.25 0.75 -0.2 EaseInSine
-a s_movecamera position z 86 0.25 0.2 EaseOutQuad
-a s_movecamera position z 86.25 0.75 -0.2 EaseInSine
-a s_movecamera position z 87 0.25 0.2 EaseOutQuad
-a s_movecamera position z 87.25 0.75 -0.2 EaseInSine
-a s_movecamera position z 88 0.25 0.2 EaseOutQuad
-a s_movecamera position z 88.25 0.75 -0.2 EaseInSine
-a s_movecamera position z 89 0.25 0.2 EaseOutQuad
-a s_movecamera position z 89.25 0.75 -0.2 EaseInSine
-a s_movecamera position z 90 0.25 0.2 EaseOutQuad
-a s_movecamera position z 90.25 0.75 -0.2 EaseInSine
-a s_movecamera position z 91 0.25 0.2 EaseOutQuad
-a s_movecamera position z 91.25 0.75 -0.2 EaseInSine
-a s_movecamera position z 92 0.25 0.2 EaseOutQuad
-a s_movecamera position z 92.25 0.75 -0.2 EaseInSine
+//screen pump
+a s_movecamera position z 77 0.25 0.2 easeoutquad
+a s_movecamera position z 77.25 0.75 -0.2 easeinsine
+a s_movecamera position z 78 0.25 0.2 easeoutquad
+a s_movecamera position z 78.25 0.75 -0.2 easeinsine
+a s_movecamera position z 79 0.25 0.2 easeoutquad
+a s_movecamera position z 79.25 0.75 -0.2 easeinsine
+a s_movecamera position z 80 0.25 0.2 easeoutquad
+a s_movecamera position z 80.25 0.75 -0.2 easeinsine
+a s_movecamera position z 81 0.25 0.2 easeoutquad
+a s_movecamera position z 81.25 0.75 -0.2 easeinsine
+a s_movecamera position z 82 0.25 0.2 easeoutquad
+a s_movecamera position z 82.25 0.75 -0.2 easeinsine
+a s_movecamera position z 83 0.25 0.2 easeoutquad
+a s_movecamera position z 83.25 0.75 -0.2 easeinsine
+a s_movecamera position z 84 0.25 0.2 easeoutquad
+a s_movecamera position z 84.25 0.75 -0.2 easeinsine
+a s_movecamera position z 85 0.25 0.2 easeoutquad
+a s_movecamera position z 85.25 0.75 -0.2 easeinsine
+a s_movecamera position z 86 0.25 0.2 easeoutquad
+a s_movecamera position z 86.25 0.75 -0.2 easeinsine
+a s_movecamera position z 87 0.25 0.2 easeoutquad
+a s_movecamera position z 87.25 0.75 -0.2 easeinsine
+a s_movecamera position z 88 0.25 0.2 easeoutquad
+a s_movecamera position z 88.25 0.75 -0.2 easeinsine
+a s_movecamera position z 89 0.25 0.2 easeoutquad
+a s_movecamera position z 89.25 0.75 -0.2 easeinsine
+a s_movecamera position z 90 0.25 0.2 easeoutquad
+a s_movecamera position z 90.25 0.75 -0.2 easeinsine
+a s_movecamera position z 91 0.25 0.2 easeoutquad
+a s_movecamera position z 91.25 0.75 -0.2 easeinsine
+a s_movecamera position z 92 0.25 0.2 easeoutquad
+a s_movecamera position z 92.25 0.75 -0.2 easeinsine
 
-a s_movecamera position z 93 0.25 0.2 EaseOutQuad
-a s_movecamera position z 93.25 0.75 -0.2 EaseInSine
-a s_movecamera position z 94 0.25 0.2 EaseOutQuad
-a s_movecamera position z 94.25 0.75 -0.2 EaseInSine
-a s_movecamera position z 95.00 0.25 0.2 EaseOutQuad
-a s_movecamera position z 95.25 0.75 -0.2 EaseInSine
-a s_movecamera position z 96.00 0.25 0.2 EaseOutQuad
-a s_movecamera position z 96.25 0.75 -0.2 EaseInSine
-a s_movecamera position z 97.00 0.25 0.2 EaseOutQuad
-a s_movecamera position z 97.25 0.75 -0.2 EaseInSine
-a s_movecamera position z 98.00 0.25 0.2 EaseOutQuad
-a s_movecamera position z 98.25 0.75 -0.2 EaseInSine
-a s_movecamera position z 99.00 0.25 0.2 EaseOutQuad
-a s_movecamera position z 99.25 0.75 -0.2 EaseInSine
-a s_movecamera position z 100.00 0.25 0.2 EaseOutQuad
-a s_movecamera position z 100.25 0.75 -0.2 EaseInSine
-a s_movecamera position z 101.00 0.25 0.2 EaseOutQuad
-a s_movecamera position z 101.25 0.75 -0.2 EaseInSine
-a s_movecamera position z 102.00 0.25 0.2 EaseOutQuad
-a s_movecamera position z 102.25 0.75 -0.2 EaseInSine
-a s_movecamera position z 103.00 0.25 0.2 EaseOutQuad
-a s_movecamera position z 103.25 0.75 -0.2 EaseInSine
-a s_movecamera position z 104.00 0.25 0.2 EaseOutQuad
-a s_movecamera position z 104.25 0.75 -0.2 EaseInSine
-a s_movecamera position z 105.00 0.25 0.2 EaseOutQuad
-a s_movecamera position z 105.25 0.75 -0.2 EaseInSine
-a s_movecamera position z 106.00 0.25 0.2 EaseOutQuad
-a s_movecamera position z 106.25 0.75 -0.2 EaseInSine
-a s_movecamera position z 107.00 0.25 0.2 EaseOutQuad
-a s_movecamera position z 107.25 0.75 -0.2 EaseInSine
-a s_movecamera position z 108.00 0.25 -0.6 EaseOutQuad
-a s_movecamera position z 108.50 0.25 1.2 EaseOutQuad
+a s_movecamera position z 93 0.25 0.2 easeoutquad
+a s_movecamera position z 93.25 0.75 -0.2 easeinsine
+a s_movecamera position z 94 0.25 0.2 easeoutquad
+a s_movecamera position z 94.25 0.75 -0.2 easeinsine
+a s_movecamera position z 95.00 0.25 0.2 easeoutquad
+a s_movecamera position z 95.25 0.75 -0.2 easeinsine
+a s_movecamera position z 96.00 0.25 0.2 easeoutquad
+a s_movecamera position z 96.25 0.75 -0.2 easeinsine
+a s_movecamera position z 97.00 0.25 0.2 easeoutquad
+a s_movecamera position z 97.25 0.75 -0.2 easeinsine
+a s_movecamera position z 98.00 0.25 0.2 easeoutquad
+a s_movecamera position z 98.25 0.75 -0.2 easeinsine
+a s_movecamera position z 99.00 0.25 0.2 easeoutquad
+a s_movecamera position z 99.25 0.75 -0.2 easeinsine
+a s_movecamera position z 100.00 0.25 0.2 easeoutquad
+a s_movecamera position z 100.25 0.75 -0.2 easeinsine
+a s_movecamera position z 101.00 0.25 0.2 easeoutquad
+a s_movecamera position z 101.25 0.75 -0.2 easeinsine
+a s_movecamera position z 102.00 0.25 0.2 easeoutquad
+a s_movecamera position z 102.25 0.75 -0.2 easeinsine
+a s_movecamera position z 103.00 0.25 0.2 easeoutquad
+a s_movecamera position z 103.25 0.75 -0.2 easeinsine
+a s_movecamera position z 104.00 0.25 0.2 easeoutquad
+a s_movecamera position z 104.25 0.75 -0.2 easeinsine
+a s_movecamera position z 105.00 0.25 0.2 easeoutquad
+a s_movecamera position z 105.25 0.75 -0.2 easeinsine
+a s_movecamera position z 106.00 0.25 0.2 easeoutquad
+a s_movecamera position z 106.25 0.75 -0.2 easeinsine
+a s_movecamera position z 107.00 0.25 0.2 easeoutquad
+a s_movecamera position z 107.25 0.75 -0.2 easeinsine
+a s_movecamera position z 108.00 0.25 -0.6 easeoutquad
+a s_movecamera position z 108.50 0.25 1.2 easeoutquad
 
-a s_movecamera position z 109.00 0.25 0.2 EaseOutQuad
-a s_movecamera position z 109.25 0.75 -0.8 EaseInSine
-a s_movecamera position z 110.00 0.25 0.2 EaseOutQuad
-a s_movecamera position z 110.25 0.75 -0.2 EaseInSine
-a s_movecamera position z 111.00 0.25 0.2 EaseOutQuad
-a s_movecamera position z 111.25 0.75 -0.2 EaseInSine
-a s_movecamera position z 112.00 0.25 0.2 EaseOutQuad
-a s_movecamera position z 112.25 0.75 -0.2 EaseInSine
-a s_movecamera position z 113.00 0.25 0.2 EaseOutQuad
-a s_movecamera position z 113.25 0.75 -0.2 EaseInSine
-a s_movecamera position z 114.00 0.25 0.2 EaseOutQuad
-a s_movecamera position z 114.25 0.75 -0.2 EaseInSine
-a s_movecamera position z 115.00 0.25 0.2 EaseOutQuad
-a s_movecamera position z 115.25 0.75 -0.2 EaseInSine
-a s_movecamera position z 116.00 0.25 0.2 EaseOutQuad
-a s_movecamera position z 116.25 0.75 -0.2 EaseInSine
-a s_movecamera position z 117.00 0.25 0.2 EaseOutQuad
-a s_movecamera position z 117.25 0.75 -0.2 EaseInSine
-a s_movecamera position z 118.00 0.25 0.2 EaseOutQuad
-a s_movecamera position z 118.25 0.75 -0.2 EaseInSine
-a s_movecamera position z 119.00 0.25 0.2 EaseOutQuad
-a s_movecamera position z 119.25 0.75 -0.2 EaseInSine
-a s_movecamera position z 120.00 0.25 0.2 EaseOutQuad
-a s_movecamera position z 120.25 0.75 -0.2 EaseInSine
-a s_movecamera position z 121.00 0.25 0.2 EaseOutQuad
-a s_movecamera position z 121.25 0.75 -0.2 EaseInSine
-a s_movecamera position z 122.00 0.25 0.2 EaseOutQuad
-a s_movecamera position z 122.25 0.75 -0.2 EaseInSine
-a s_movecamera position z 123.00 0.25 0.2 EaseOutQuad
-a s_movecamera position z 123.25 0.75 -0.2 EaseInSine
-a s_movecamera position z 124.00 0.25 0.2 EaseOutQuad
-a s_movecamera position z 124.25 0.75 -0.2 Easeinsine
+a s_movecamera position z 109.00 0.25 0.2 easeoutquad
+a s_movecamera position z 109.25 0.75 -0.8 easeinsine
+a s_movecamera position z 110.00 0.25 0.2 easeoutquad
+a s_movecamera position z 110.25 0.75 -0.2 easeinsine
+a s_movecamera position z 111.00 0.25 0.2 easeoutquad
+a s_movecamera position z 111.25 0.75 -0.2 easeinsine
+a s_movecamera position z 112.00 0.25 0.2 easeoutquad
+a s_movecamera position z 112.25 0.75 -0.2 easeinsine
+a s_movecamera position z 113.00 0.25 0.2 easeoutquad
+a s_movecamera position z 113.25 0.75 -0.2 easeinsine
+a s_movecamera position z 114.00 0.25 0.2 easeoutquad
+a s_movecamera position z 114.25 0.75 -0.2 easeinsine
+a s_movecamera position z 115.00 0.25 0.2 easeoutquad
+a s_movecamera position z 115.25 0.75 -0.2 easeinsine
+a s_movecamera position z 116.00 0.25 0.2 easeoutquad
+a s_movecamera position z 116.25 0.75 -0.2 easeinsine
+a s_movecamera position z 117.00 0.25 0.2 easeoutquad
+a s_movecamera position z 117.25 0.75 -0.2 easeinsine
+a s_movecamera position z 118.00 0.25 0.2 easeoutquad
+a s_movecamera position z 118.25 0.75 -0.2 easeinsine
+a s_movecamera position z 119.00 0.25 0.2 easeoutquad
+a s_movecamera position z 119.25 0.75 -0.2 easeinsine
+a s_movecamera position z 120.00 0.25 0.2 easeoutquad
+a s_movecamera position z 120.25 0.75 -0.2 easeinsine
+a s_movecamera position z 121.00 0.25 0.2 easeoutquad
+a s_movecamera position z 121.25 0.75 -0.2 easeinsine
+a s_movecamera position z 122.00 0.25 0.2 easeoutquad
+a s_movecamera position z 122.25 0.75 -0.2 easeinsine
+a s_movecamera position z 123.00 0.25 0.2 easeoutquad
+a s_movecamera position z 123.25 0.75 -0.2 easeinsine
+a s_movecamera position z 124.00 0.25 0.2 easeoutquad
+a s_movecamera position z 124.25 0.75 -0.2 easeinsine
 
 /*
-a s_movecamera position z 125.00 0.25 0.1 EaseinQuad
-a s_movecamera position z 125.25 0.25 -0.1 EaseOutsine
-a s_movecamera position z 125.50 0.25 0.1 EaseinQuad
-a s_movecamera position z 125.75 0.25 -0.1 EaseOutsine
-a s_movecamera position z 126.00 0.25 0.1 EaseinQuad
-a s_movecamera position z 126.25 0.25 -0.1 EaseOutsine
-a s_movecamera position z 126.50 0.25 0.1 EaseinQuad
-a s_movecamera position z 126.75 0.25 -0.1 EaseOutsine
-a s_movecamera position z 127.00 0.25 0.1 EaseinQuad
-a s_movecamera position z 127.25 0.25 -0.1 EaseOutsine
-a s_movecamera position z 127.50 0.25 0.1 EaseinQuad
-a s_movecamera position z 127.75 0.25 -0.1 EaseOutsine
-a s_movecamera position z 128.00 0.25 0.1 EaseinQuad
-a s_movecamera position z 128.25 0.25 -0.1 EaseOutsine
-a s_movecamera position z 128.50 0.25 0.1 EaseinQuad
-a s_movecamera position z 128.75 0.25 -0.1 EaseOutsine
-a s_movecamera position z 129.00 0.25 0.1 EaseinQuad
-a s_movecamera position z 129.25 0.25 -0.1 EaseOutsine
-a s_movecamera position z 129.50 0.25 0.1 EaseinQuad
-a s_movecamera position z 129.75 0.25 -0.1 EaseOutsine
-a s_movecamera position z 130.00 0.25 0.1 EaseinQuad
-a s_movecamera position z 130.25 0.25 -0.1 EaseOutsine
-/a s_movecamera position z 130.50 0.25 0.1 EaseinQuad
-/a s_movecamera position z 130.75 0.25 -0.1 EaseOutsine
-/a s_movecamera position z 131.00 0.25 0.1 EaseinQuad
-/a s_movecamera position z 131.25 0.25 -0.1 EaseOutsine
-/a s_movecamera position z 131.50 0.25 0.1 EaseinQuad
-/a s_movecamera position z 131.75 0.25 -0.1 EaseOutsine
-/a s_movecamera position z 132.00 0.25 0.1 EaseinQuad
-/a s_movecamera position z 132.25 0.25 -0.1 EaseOutsine
-/a s_movecamera position z 132.50 0.25 0.1 EaseinQuad
-/a s_movecamera position z 132.75 0.25 -0.1 EaseOutsine
+a s_movecamera position z 125.00 0.25 0.1 easeinquad
+a s_movecamera position z 125.25 0.25 -0.1 easeoutsine
+a s_movecamera position z 125.50 0.25 0.1 easeinquad
+a s_movecamera position z 125.75 0.25 -0.1 easeoutsine
+a s_movecamera position z 126.00 0.25 0.1 easeinquad
+a s_movecamera position z 126.25 0.25 -0.1 easeoutsine
+a s_movecamera position z 126.50 0.25 0.1 easeinquad
+a s_movecamera position z 126.75 0.25 -0.1 easeoutsine
+a s_movecamera position z 127.00 0.25 0.1 easeinquad
+a s_movecamera position z 127.25 0.25 -0.1 easeoutsine
+a s_movecamera position z 127.50 0.25 0.1 easeinquad
+a s_movecamera position z 127.75 0.25 -0.1 easeoutsine
+a s_movecamera position z 128.00 0.25 0.1 easeinquad
+a s_movecamera position z 128.25 0.25 -0.1 easeoutsine
+a s_movecamera position z 128.50 0.25 0.1 easeinquad
+a s_movecamera position z 128.75 0.25 -0.1 easeoutsine
+a s_movecamera position z 129.00 0.25 0.1 easeinquad
+a s_movecamera position z 129.25 0.25 -0.1 easeoutsine
+a s_movecamera position z 129.50 0.25 0.1 easeinquad
+a s_movecamera position z 129.75 0.25 -0.1 easeoutsine
+a s_movecamera position z 130.00 0.25 0.1 easeinquad
+a s_movecamera position z 130.25 0.25 -0.1 easeoutsine
+/a s_movecamera position z 130.50 0.25 0.1 easeinquad
+/a s_movecamera position z 130.75 0.25 -0.1 easeoutsine
+/a s_movecamera position z 131.00 0.25 0.1 easeinquad
+/a s_movecamera position z 131.25 0.25 -0.1 easeoutsine
+/a s_movecamera position z 131.50 0.25 0.1 easeinquad
+/a s_movecamera position z 131.75 0.25 -0.1 easeoutsine
+/a s_movecamera position z 132.00 0.25 0.1 easeinquad
+/a s_movecamera position z 132.25 0.25 -0.1 easeoutsine
+/a s_movecamera position z 132.50 0.25 0.1 easeinquad
+/a s_movecamera position z 132.75 0.25 -0.1 easeoutsine
 */
 missing 16/32th pump
 
 
-a s_movecamera position z 143.00 0.25 0.2 EaseOutQuad
-a s_movecamera position z 143.25 0.75 -0.2 EaseInSine
-a s_movecamera position z 144.00 0.25 0.2 EaseOutQuad
-a s_movecamera position z 144.25 0.75 -0.2 EaseInSine
-a s_movecamera position z 145.00 0.25 0.2 EaseOutQuad
-a s_movecamera position z 145.25 0.75 -0.2 EaseInSine
-a s_movecamera position z 146.00 0.25 0.2 EaseOutQuad
-a s_movecamera position z 146.25 0.75 -0.2 EaseInSine
-a s_movecamera position z 147.00 0.25 0.2 EaseOutQuad
-a s_movecamera position z 147.25 0.75 -0.2 EaseInSine
-a s_movecamera position z 148.00 0.25 0.2 EaseOutQuad
-a s_movecamera position z 148.25 0.75 -0.2 EaseInSine
+a s_movecamera position z 143.00 0.25 0.2 easeoutquad
+a s_movecamera position z 143.25 0.75 -0.2 easeinsine
+a s_movecamera position z 144.00 0.25 0.2 easeoutquad
+a s_movecamera position z 144.25 0.75 -0.2 easeinsine
+a s_movecamera position z 145.00 0.25 0.2 easeoutquad
+a s_movecamera position z 145.25 0.75 -0.2 easeinsine
+a s_movecamera position z 146.00 0.25 0.2 easeoutquad
+a s_movecamera position z 146.25 0.75 -0.2 easeinsine
+a s_movecamera position z 147.00 0.25 0.2 easeoutquad
+a s_movecamera position z 147.25 0.75 -0.2 easeinsine
+a s_movecamera position z 148.00 0.25 0.2 easeoutquad
+a s_movecamera position z 148.25 0.75 -0.2 easeinsine
 
-a s_movecamera position z 151.00 0.25 0.2 EaseOutQuad
-a s_movecamera position z 151.25 0.75 -0.2 EaseInSine
-a s_movecamera position z 152.00 0.25 0.2 EaseOutQuad
-a s_movecamera position z 152.25 0.75 -0.2 EaseInSine
-a s_movecamera position z 153.00 0.25 0.2 EaseOutQuad
-a s_movecamera position z 153.25 0.75 -0.2 EaseInSine
-a s_movecamera position z 154.00 0.25 0.2 EaseOutQuad
-a s_movecamera position z 154.25 0.75 -0.2 EaseInSine
-a s_movecamera position z 155.00 0.25 0.2 EaseOutQuad
-a s_movecamera position z 155.25 0.75 -0.2 EaseInSine
-a s_movecamera position z 156.00 0.25 0.2 EaseOutQuad
-a s_movecamera position z 156.25 0.75 -0.2 EaseInSine
+a s_movecamera position z 151.00 0.25 0.2 easeoutquad
+a s_movecamera position z 151.25 0.75 -0.2 easeinsine
+a s_movecamera position z 152.00 0.25 0.2 easeoutquad
+a s_movecamera position z 152.25 0.75 -0.2 easeinsine
+a s_movecamera position z 153.00 0.25 0.2 easeoutquad
+a s_movecamera position z 153.25 0.75 -0.2 easeinsine
+a s_movecamera position z 154.00 0.25 0.2 easeoutquad
+a s_movecamera position z 154.25 0.75 -0.2 easeinsine
+a s_movecamera position z 155.00 0.25 0.2 easeoutquad
+a s_movecamera position z 155.25 0.75 -0.2 easeinsine
+a s_movecamera position z 156.00 0.25 0.2 easeoutquad
+a s_movecamera position z 156.25 0.75 -0.2 easeinsine
 
-a s_movecamera position z 159.00 0.25 0.2 EaseOutQuad
-a s_movecamera position z 159.25 0.75 -0.2 EaseInSine
-a s_movecamera position z 160.00 0.25 0.2 EaseOutQuad
-a s_movecamera position z 160.25 0.75 -0.2 EaseInSine
-a s_movecamera position z 161.00 0.25 0.2 EaseOutQuad
-a s_movecamera position z 161.25 0.75 -0.2 EaseInSine
-a s_movecamera position z 162.00 0.25 0.2 EaseOutQuad
-a s_movecamera position z 162.25 0.75 -0.2 EaseInSine
-a s_movecamera position z 163.00 0.25 0.2 EaseOutQuad
-a s_movecamera position z 163.25 0.75 -0.2 EaseInSine
-a s_movecamera position z 164.00 0.25 0.2 EaseOutQuad
-a s_movecamera position z 164.25 0.75 -0.2 EaseInSine
+a s_movecamera position z 159.00 0.25 0.2 easeoutquad
+a s_movecamera position z 159.25 0.75 -0.2 easeinsine
+a s_movecamera position z 160.00 0.25 0.2 easeoutquad
+a s_movecamera position z 160.25 0.75 -0.2 easeinsine
+a s_movecamera position z 161.00 0.25 0.2 easeoutquad
+a s_movecamera position z 161.25 0.75 -0.2 easeinsine
+a s_movecamera position z 162.00 0.25 0.2 easeoutquad
+a s_movecamera position z 162.25 0.75 -0.2 easeinsine
+a s_movecamera position z 163.00 0.25 0.2 easeoutquad
+a s_movecamera position z 163.25 0.75 -0.2 easeinsine
+a s_movecamera position z 164.00 0.25 0.2 easeoutquad
+a s_movecamera position z 164.25 0.75 -0.2 easeinsine
 
-a s_movecamera position z 165.00 0.25 0.2 EaseOutQuad
-a s_movecamera position z 165.25 0.75 -0.2 EaseInSine
-a s_movecamera position z 166.00 0.25 0.2 EaseOutQuad
-a s_movecamera position z 166.25 0.75 -0.2 EaseInSine
-a s_movecamera position z 167.00 0.25 0.2 EaseOutQuad
-a s_movecamera position z 167.25 0.75 -0.2 EaseInSine
-a s_movecamera position z 168.00 0.25 0.2 EaseOutQuad
-a s_movecamera position z 168.25 0.75 -0.2 EaseInSine
-a s_movecamera position z 169.00 0.25 0.2 EaseOutQuad
-a s_movecamera position z 169.25 0.75 -0.2 EaseInSine
-a s_movecamera position z 170.00 0.25 0.2 EaseOutQuad
-a s_movecamera position z 170.25 0.75 -0.2 EaseInSine
-a s_movecamera position z 171.00 0.25 0.2 EaseOutQuad
-a s_movecamera position z 171.25 0.75 -0.2 EaseInSine
-a s_movecamera position z 172.00 0.25 0.2 EaseOutQuad
-a s_movecamera position z 172.25 0.75 -0.2 EaseInSine
+a s_movecamera position z 165.00 0.25 0.2 easeoutquad
+a s_movecamera position z 165.25 0.75 -0.2 easeinsine
+a s_movecamera position z 166.00 0.25 0.2 easeoutquad
+a s_movecamera position z 166.25 0.75 -0.2 easeinsine
+a s_movecamera position z 167.00 0.25 0.2 easeoutquad
+a s_movecamera position z 167.25 0.75 -0.2 easeinsine
+a s_movecamera position z 168.00 0.25 0.2 easeoutquad
+a s_movecamera position z 168.25 0.75 -0.2 easeinsine
+a s_movecamera position z 169.00 0.25 0.2 easeoutquad
+a s_movecamera position z 169.25 0.75 -0.2 easeinsine
+a s_movecamera position z 170.00 0.25 0.2 easeoutquad
+a s_movecamera position z 170.25 0.75 -0.2 easeinsine
+a s_movecamera position z 171.00 0.25 0.2 easeoutquad
+a s_movecamera position z 171.25 0.75 -0.2 easeinsine
+a s_movecamera position z 172.00 0.25 0.2 easeoutquad
+a s_movecamera position z 172.25 0.75 -0.2 easeinsine
 
-a s_movecamera position z 175.00 0.25 0.2 EaseOutQuad
-a s_movecamera position z 175.25 0.75 -0.2 EaseInSine
-a s_movecamera position z 176.00 0.25 0.2 EaseOutQuad
-a s_movecamera position z 176.25 0.75 -0.2 EaseInSine
-a s_movecamera position z 177.00 0.25 0.2 EaseOutQuad
-a s_movecamera position z 177.25 0.75 -0.2 EaseInSine
-a s_movecamera position z 178.00 0.25 0.2 EaseOutQuad
-a s_movecamera position z 178.25 0.75 -0.2 EaseInSine
-a s_movecamera position z 179.00 0.25 0.2 EaseOutQuad
-a s_movecamera position z 179.25 0.75 -0.2 EaseInSine
-a s_movecamera position z 180.00 0.25 0.2 EaseOutQuad
-a s_movecamera position z 180.25 0.75 -0.2 EaseInSine
+a s_movecamera position z 175.00 0.25 0.2 easeoutquad
+a s_movecamera position z 175.25 0.75 -0.2 easeinsine
+a s_movecamera position z 176.00 0.25 0.2 easeoutquad
+a s_movecamera position z 176.25 0.75 -0.2 easeinsine
+a s_movecamera position z 177.00 0.25 0.2 easeoutquad
+a s_movecamera position z 177.25 0.75 -0.2 easeinsine
+a s_movecamera position z 178.00 0.25 0.2 easeoutquad
+a s_movecamera position z 178.25 0.75 -0.2 easeinsine
+a s_movecamera position z 179.00 0.25 0.2 easeoutquad
+a s_movecamera position z 179.25 0.75 -0.2 easeinsine
+a s_movecamera position z 180.00 0.25 0.2 easeoutquad
+a s_movecamera position z 180.25 0.75 -0.2 easeinsine
 
-a s_movecamera position z 183.00 0.25 0.2 EaseOutQuad
-a s_movecamera position z 183.25 0.75 -0.2 EaseInSine
-a s_movecamera position z 184.00 0.25 0.2 EaseOutQuad
-a s_movecamera position z 184.25 0.75 -0.2 EaseInSine
-a s_movecamera position z 185.00 0.25 0.2 EaseOutQuad
-a s_movecamera position z 185.25 0.75 -0.2 EaseInSine
-a s_movecamera position z 186.00 0.25 0.2 EaseOutQuad
-a s_movecamera position z 186.25 0.75 -0.2 EaseInSine
-a s_movecamera position z 187.00 0.25 0.2 EaseOutQuad
-a s_movecamera position z 187.25 0.75 -0.2 EaseInSine
-a s_movecamera position z 188.00 0.25 0.2 EaseOutQuad
-a s_movecamera position z 188.25 0.75 -0.2 EaseInSine
+a s_movecamera position z 183.00 0.25 0.2 easeoutquad
+a s_movecamera position z 183.25 0.75 -0.2 easeinsine
+a s_movecamera position z 184.00 0.25 0.2 easeoutquad
+a s_movecamera position z 184.25 0.75 -0.2 easeinsine
+a s_movecamera position z 185.00 0.25 0.2 easeoutquad
+a s_movecamera position z 185.25 0.75 -0.2 easeinsine
+a s_movecamera position z 186.00 0.25 0.2 easeoutquad
+a s_movecamera position z 186.25 0.75 -0.2 easeinsine
+a s_movecamera position z 187.00 0.25 0.2 easeoutquad
+a s_movecamera position z 187.25 0.75 -0.2 easeinsine
+a s_movecamera position z 188.00 0.25 0.2 easeoutquad
+a s_movecamera position z 188.25 0.75 -0.2 easeinsine
 
-a s_movecamera position z 191.00 0.25 0.2 EaseOutQuad
-a s_movecamera position z 191.25 0.75 -0.2 EaseInSine
-a s_movecamera position z 192.00 0.25 0.2 EaseOutQuad
-a s_movecamera position z 192.25 0.75 -0.2 EaseInSine
-a s_movecamera position z 193.00 0.25 0.2 EaseOutQuad
-a s_movecamera position z 193.25 0.75 -0.2 EaseInSine
-a s_movecamera position z 194.00 0.25 0.2 EaseOutQuad
-a s_movecamera position z 194.25 0.75 -0.2 EaseInSine
-a s_movecamera position z 195.00 0.25 0.2 EaseOutQuad
-a s_movecamera position z 195.25 0.75 -0.2 EaseInSine
-a s_movecamera position z 196.00 0.25 0.2 EaseOutQuad
-a s_movecamera position z 196.25 0.75 -0.2 EaseInSine
+a s_movecamera position z 191.00 0.25 0.2 easeoutquad
+a s_movecamera position z 191.25 0.75 -0.2 easeinsine
+a s_movecamera position z 192.00 0.25 0.2 easeoutquad
+a s_movecamera position z 192.25 0.75 -0.2 easeinsine
+a s_movecamera position z 193.00 0.25 0.2 easeoutquad
+a s_movecamera position z 193.25 0.75 -0.2 easeinsine
+a s_movecamera position z 194.00 0.25 0.2 easeoutquad
+a s_movecamera position z 194.25 0.75 -0.2 easeinsine
+a s_movecamera position z 195.00 0.25 0.2 easeoutquad
+a s_movecamera position z 195.25 0.75 -0.2 easeinsine
+a s_movecamera position z 196.00 0.25 0.2 easeoutquad
+a s_movecamera position z 196.25 0.75 -0.2 easeinsine
 
-a s_movecamera position z 205.00 0.25 0.2 EaseOutQuad
-a s_movecamera position z 205.25 0.75 -0.2 EaseInSine
-a s_movecamera position z 206.00 0.25 0.2 EaseOutQuad
-a s_movecamera position z 206.25 0.75 -0.2 EaseInSine
-a s_movecamera position z 207.00 0.25 0.2 EaseOutQuad
-a s_movecamera position z 207.25 0.75 -0.2 EaseInSine
-a s_movecamera position z 208.00 0.25 0.2 EaseOutQuad
-a s_movecamera position z 208.25 0.75 -0.2 EaseInSine
-a s_movecamera position z 209.00 0.25 0.2 EaseOutQuad
-a s_movecamera position z 209.25 0.75 -0.2 EaseInSine
-a s_movecamera position z 210.00 0.25 0.2 EaseOutQuad
-a s_movecamera position z 210.25 0.75 -0.2 EaseInSine
-a s_movecamera position z 211.00 0.25 0.2 EaseOutQuad
-a s_movecamera position z 211.25 0.75 -0.2 EaseInSine
-a s_movecamera position z 212.00 0.25 0.2 EaseOutQuad
-a s_movecamera position z 212.25 0.75 -0.2 EaseInSine
-a s_movecamera position z 213.00 0.25 0.2 EaseOutQuad
-a s_movecamera position z 213.25 0.75 -0.2 EaseInSine
-a s_movecamera position z 214.00 0.25 0.2 EaseOutQuad
-a s_movecamera position z 214.25 0.75 -0.2 EaseInSine
-a s_movecamera position z 215.00 0.25 0.2 EaseOutQuad
-a s_movecamera position z 215.25 0.75 -0.2 EaseInSine
-a s_movecamera position z 216.00 0.25 0.2 EaseOutQuad
-a s_movecamera position z 216.25 0.75 -0.2 EaseInSine
-a s_movecamera position z 217.00 0.25 0.2 EaseOutQuad
-a s_movecamera position z 217.25 0.75 -0.2 EaseInSine
-a s_movecamera position z 218.00 0.25 0.2 EaseOutQuad
-a s_movecamera position z 218.25 0.75 -0.2 EaseInSine
-a s_movecamera position z 219.00 0.25 0.2 EaseOutQuad
-a s_movecamera position z 219.25 0.75 -0.2 EaseInSine
-a s_movecamera position z 220.00 0.25 0.2 EaseOutQuad
-a s_movecamera position z 220.25 0.75 -0.2 Easeinsine
+a s_movecamera position z 205.00 0.25 0.2 easeoutquad
+a s_movecamera position z 205.25 0.75 -0.2 easeinsine
+a s_movecamera position z 206.00 0.25 0.2 easeoutquad
+a s_movecamera position z 206.25 0.75 -0.2 easeinsine
+a s_movecamera position z 207.00 0.25 0.2 easeoutquad
+a s_movecamera position z 207.25 0.75 -0.2 easeinsine
+a s_movecamera position z 208.00 0.25 0.2 easeoutquad
+a s_movecamera position z 208.25 0.75 -0.2 easeinsine
+a s_movecamera position z 209.00 0.25 0.2 easeoutquad
+a s_movecamera position z 209.25 0.75 -0.2 easeinsine
+a s_movecamera position z 210.00 0.25 0.2 easeoutquad
+a s_movecamera position z 210.25 0.75 -0.2 easeinsine
+a s_movecamera position z 211.00 0.25 0.2 easeoutquad
+a s_movecamera position z 211.25 0.75 -0.2 easeinsine
+a s_movecamera position z 212.00 0.25 0.2 easeoutquad
+a s_movecamera position z 212.25 0.75 -0.2 easeinsine
+a s_movecamera position z 213.00 0.25 0.2 easeoutquad
+a s_movecamera position z 213.25 0.75 -0.2 easeinsine
+a s_movecamera position z 214.00 0.25 0.2 easeoutquad
+a s_movecamera position z 214.25 0.75 -0.2 easeinsine
+a s_movecamera position z 215.00 0.25 0.2 easeoutquad
+a s_movecamera position z 215.25 0.75 -0.2 easeinsine
+a s_movecamera position z 216.00 0.25 0.2 easeoutquad
+a s_movecamera position z 216.25 0.75 -0.2 easeinsine
+a s_movecamera position z 217.00 0.25 0.2 easeoutquad
+a s_movecamera position z 217.25 0.75 -0.2 easeinsine
+a s_movecamera position z 218.00 0.25 0.2 easeoutquad
+a s_movecamera position z 218.25 0.75 -0.2 easeinsine
+a s_movecamera position z 219.00 0.25 0.2 easeoutquad
+a s_movecamera position z 219.25 0.75 -0.2 easeinsine
+a s_movecamera position z 220.00 0.25 0.2 easeoutquad
+a s_movecamera position z 220.25 0.75 -0.2 easeinsine
 
-a s_movecamera position z 221.00 0.25 0.2 EaseOutQuad
-a s_movecamera position z 221.25 0.75 -0.2 EaseInSine
-a s_movecamera position z 222.00 0.25 0.2 EaseOutQuad
-a s_movecamera position z 222.25 0.75 -0.2 EaseInSine
-a s_movecamera position z 223.00 0.25 0.2 EaseOutQuad
-a s_movecamera position z 223.25 0.75 -0.2 EaseInSine
-a s_movecamera position z 224.00 0.25 0.2 EaseOutQuad
-a s_movecamera position z 224.25 0.75 -0.2 EaseInSine
-a s_movecamera position z 225.00 0.25 0.2 EaseOutQuad
-a s_movecamera position z 225.25 0.75 -0.2 EaseInSine
-a s_movecamera position z 226.00 0.25 0.2 EaseOutQuad
-a s_movecamera position z 226.25 0.75 -0.2 EaseInSine
-a s_movecamera position z 227.00 0.25 0.2 EaseOutQuad
-a s_movecamera position z 227.25 0.75 -0.2 EaseInSine
-a s_movecamera position z 228.00 0.25 0.2 EaseOutQuad
-a s_movecamera position z 228.25 0.75 -0.2 EaseInSine
-a s_movecamera position z 229.00 0.25 0.2 EaseOutQuad
-a s_movecamera position z 229.25 0.75 -0.2 EaseInSine
-a s_movecamera position z 230.00 0.25 0.2 EaseOutQuad
-a s_movecamera position z 230.25 0.75 -0.2 EaseInSine
-a s_movecamera position z 231.00 0.25 0.2 EaseOutQuad
-a s_movecamera position z 231.25 0.75 -0.2 EaseInSine
-a s_movecamera position z 232.00 0.25 0.2 EaseOutQuad
-a s_movecamera position z 232.25 0.75 -0.2 EaseInSine
-a s_movecamera position z 233.00 0.25 0.2 EaseOutQuad
-a s_movecamera position z 233.25 0.75 -0.2 EaseInSine
-a s_movecamera position z 234.00 0.25 0.2 EaseOutQuad
-a s_movecamera position z 234.25 0.75 -0.2 EaseInSine
-a s_movecamera position z 235.00 0.25 0.2 EaseOutQuad
-a s_movecamera position z 235.25 0.75 -0.2 EaseInSine
-a s_movecamera position z 236.00 0.25 0.2 EaseOutQuad
-a s_movecamera position z 236.50 0.25 0.2 EaseOutQuad
+a s_movecamera position z 221.00 0.25 0.2 easeoutquad
+a s_movecamera position z 221.25 0.75 -0.2 easeinsine
+a s_movecamera position z 222.00 0.25 0.2 easeoutquad
+a s_movecamera position z 222.25 0.75 -0.2 easeinsine
+a s_movecamera position z 223.00 0.25 0.2 easeoutquad
+a s_movecamera position z 223.25 0.75 -0.2 easeinsine
+a s_movecamera position z 224.00 0.25 0.2 easeoutquad
+a s_movecamera position z 224.25 0.75 -0.2 easeinsine
+a s_movecamera position z 225.00 0.25 0.2 easeoutquad
+a s_movecamera position z 225.25 0.75 -0.2 easeinsine
+a s_movecamera position z 226.00 0.25 0.2 easeoutquad
+a s_movecamera position z 226.25 0.75 -0.2 easeinsine
+a s_movecamera position z 227.00 0.25 0.2 easeoutquad
+a s_movecamera position z 227.25 0.75 -0.2 easeinsine
+a s_movecamera position z 228.00 0.25 0.2 easeoutquad
+a s_movecamera position z 228.25 0.75 -0.2 easeinsine
+a s_movecamera position z 229.00 0.25 0.2 easeoutquad
+a s_movecamera position z 229.25 0.75 -0.2 easeinsine
+a s_movecamera position z 230.00 0.25 0.2 easeoutquad
+a s_movecamera position z 230.25 0.75 -0.2 easeinsine
+a s_movecamera position z 231.00 0.25 0.2 easeoutquad
+a s_movecamera position z 231.25 0.75 -0.2 easeinsine
+a s_movecamera position z 232.00 0.25 0.2 easeoutquad
+a s_movecamera position z 232.25 0.75 -0.2 easeinsine
+a s_movecamera position z 233.00 0.25 0.2 easeoutquad
+a s_movecamera position z 233.25 0.75 -0.2 easeinsine
+a s_movecamera position z 234.00 0.25 0.2 easeoutquad
+a s_movecamera position z 234.25 0.75 -0.2 easeinsine
+a s_movecamera position z 235.00 0.25 0.2 easeoutquad
+a s_movecamera position z 235.25 0.75 -0.2 easeinsine
+a s_movecamera position z 236.00 0.25 0.2 easeoutquad
+a s_movecamera position z 236.50 0.25 0.2 easeoutquad
 
-a s_movecamera position z 237.00 0.25 0.2 EaseOutQuad
-a s_movecamera position z 237.25 0.75 -0.6 EaseInSine
-a s_movecamera position z 238.00 0.25 0.2 EaseOutQuad
-a s_movecamera position z 238.25 0.75 -0.2 EaseInSine
-a s_movecamera position z 239.00 0.25 0.2 EaseOutQuad
-a s_movecamera position z 239.25 0.75 -0.2 EaseInSine
-a s_movecamera position z 240.00 0.25 0.2 EaseOutQuad
-a s_movecamera position z 240.25 0.75 -0.2 EaseInSine
-a s_movecamera position z 241.00 0.25 0.2 EaseOutQuad
-a s_movecamera position z 241.25 0.75 -0.2 EaseInSine
-a s_movecamera position z 242.00 0.25 0.2 EaseOutQuad
-a s_movecamera position z 242.25 0.75 -0.2 EaseInSine
-a s_movecamera position z 243.00 0.25 0.2 EaseOutQuad
-a s_movecamera position z 243.25 0.75 -0.2 EaseInSine
-a s_movecamera position z 244.00 0.25 0.2 EaseOutQuad
-a s_movecamera position z 244.25 0.75 -0.2 EaseInSine
-a s_movecamera position z 245.00 0.25 0.2 EaseOutQuad
-a s_movecamera position z 245.25 0.75 -0.2 EaseInSine
-a s_movecamera position z 246.00 0.25 0.2 EaseOutQuad
-a s_movecamera position z 246.25 0.75 -0.2 Easeinsine
-a s_movecamera position z 247.00 0.25 0.2 EaseOutQuad
-a s_movecamera position z 247.25 0.75 -0.2 EaseInSine
-a s_movecamera position z 248.00 0.25 0.2 EaseOutQuad
-a s_movecamera position z 248.25 0.75 -0.2 EaseInSine
-a s_movecamera position z 249.00 0.25 0.2 EaseOutQuad
-a s_movecamera position z 249.25 0.75 -0.2 EaseInSine
-a s_movecamera position z 250.00 0.25 0.2 EaseOutQuad
-a s_movecamera position z 250.25 0.75 -0.2 EaseInSine
-a s_movecamera position z 251.00 0.25 0.2 EaseOutQuad
-a s_movecamera position z 251.25 0.75 -0.2 EaseInSine
-a s_movecamera position z 252.00 0.25 0.2 EaseOutQuad
-a s_movecamera position z 252.25 0.75 -0.2 EaseInSine
+a s_movecamera position z 237.00 0.25 0.2 easeoutquad
+a s_movecamera position z 237.25 0.75 -0.6 easeinsine
+a s_movecamera position z 238.00 0.25 0.2 easeoutquad
+a s_movecamera position z 238.25 0.75 -0.2 easeinsine
+a s_movecamera position z 239.00 0.25 0.2 easeoutquad
+a s_movecamera position z 239.25 0.75 -0.2 easeinsine
+a s_movecamera position z 240.00 0.25 0.2 easeoutquad
+a s_movecamera position z 240.25 0.75 -0.2 easeinsine
+a s_movecamera position z 241.00 0.25 0.2 easeoutquad
+a s_movecamera position z 241.25 0.75 -0.2 easeinsine
+a s_movecamera position z 242.00 0.25 0.2 easeoutquad
+a s_movecamera position z 242.25 0.75 -0.2 easeinsine
+a s_movecamera position z 243.00 0.25 0.2 easeoutquad
+a s_movecamera position z 243.25 0.75 -0.2 easeinsine
+a s_movecamera position z 244.00 0.25 0.2 easeoutquad
+a s_movecamera position z 244.25 0.75 -0.2 easeinsine
+a s_movecamera position z 245.00 0.25 0.2 easeoutquad
+a s_movecamera position z 245.25 0.75 -0.2 easeinsine
+a s_movecamera position z 246.00 0.25 0.2 easeoutquad
+a s_movecamera position z 246.25 0.75 -0.2 easeinsine
+a s_movecamera position z 247.00 0.25 0.2 easeoutquad
+a s_movecamera position z 247.25 0.75 -0.2 easeinsine
+a s_movecamera position z 248.00 0.25 0.2 easeoutquad
+a s_movecamera position z 248.25 0.75 -0.2 easeinsine
+a s_movecamera position z 249.00 0.25 0.2 easeoutquad
+a s_movecamera position z 249.25 0.75 -0.2 easeinsine
+a s_movecamera position z 250.00 0.25 0.2 easeoutquad
+a s_movecamera position z 250.25 0.75 -0.2 easeinsine
+a s_movecamera position z 251.00 0.25 0.2 easeoutquad
+a s_movecamera position z 251.25 0.75 -0.2 easeinsine
+a s_movecamera position z 252.00 0.25 0.2 easeoutquad
+a s_movecamera position z 252.25 0.75 -0.2 easeinsine
 
-a s_movecamera position z 333.00 0.25 0.1 EaseOutQuad
-a s_movecamera position z 333.25 0.75 -0.1 EaseInSine
-a s_movecamera position z 334.00 0.25 0.1 EaseOutQuad
-a s_movecamera position z 334.25 0.75 -0.1 EaseInSine
-a s_movecamera position z 335.00 0.25 0.1 EaseOutQuad
-a s_movecamera position z 335.25 0.75 -0.1 EaseInSine
-a s_movecamera position z 336.00 0.25 0.1 EaseOutQuad
-a s_movecamera position z 336.25 0.75 -0.1 EaseInSine
-a s_movecamera position z 337.00 0.25 0.1 EaseOutQuad
-a s_movecamera position z 337.25 0.75 -0.1 EaseInSine
-a s_movecamera position z 338.00 0.25 0.1 EaseOutQuad
-a s_movecamera position z 338.25 0.75 -0.1 EaseInSine
-a s_movecamera position z 339.00 0.25 0.1 EaseOutQuad
-a s_movecamera position z 339.25 0.75 -0.1 EaseInSine
-a s_movecamera position z 340.00 0.25 0.1 EaseOutQuad
-a s_movecamera position z 340.25 0.75 -0.1 EaseInSine
-a s_movecamera position z 341.00 0.25 0.1 EaseOutQuad
-a s_movecamera position z 341.25 0.75 -0.1 EaseInSine
-a s_movecamera position z 342.00 0.25 0.1 EaseOutQuad
-a s_movecamera position z 342.25 0.75 -0.1 EaseInSine
-a s_movecamera position z 343.00 0.25 0.1 EaseOutQuad
-a s_movecamera position z 343.25 0.75 -0.1 EaseInSine
-a s_movecamera position z 344.00 0.25 0.1 EaseOutQuad
-a s_movecamera position z 344.25 0.75 -0.1 EaseInSine
-a s_movecamera position z 345.00 0.25 0.1 EaseOutQuad
-a s_movecamera position z 345.25 0.75 -0.1 EaseInSine
-a s_movecamera position z 346.00 0.25 0.1 EaseOutQuad
-a s_movecamera position z 346.25 0.75 -0.1 EaseInSine
-a s_movecamera position z 347.00 0.25 0.1 EaseOutQuad
-a s_movecamera position z 347.25 0.75 -0.1 EaseInSine
-a s_movecamera position z 348.00 0.25 0.1 EaseOutQuad
-a s_movecamera position z 348.25 0.75 -0.1 Easeinsine
+a s_movecamera position z 333.00 0.25 0.1 easeoutquad
+a s_movecamera position z 333.25 0.75 -0.1 easeinsine
+a s_movecamera position z 334.00 0.25 0.1 easeoutquad
+a s_movecamera position z 334.25 0.75 -0.1 easeinsine
+a s_movecamera position z 335.00 0.25 0.1 easeoutquad
+a s_movecamera position z 335.25 0.75 -0.1 easeinsine
+a s_movecamera position z 336.00 0.25 0.1 easeoutquad
+a s_movecamera position z 336.25 0.75 -0.1 easeinsine
+a s_movecamera position z 337.00 0.25 0.1 easeoutquad
+a s_movecamera position z 337.25 0.75 -0.1 easeinsine
+a s_movecamera position z 338.00 0.25 0.1 easeoutquad
+a s_movecamera position z 338.25 0.75 -0.1 easeinsine
+a s_movecamera position z 339.00 0.25 0.1 easeoutquad
+a s_movecamera position z 339.25 0.75 -0.1 easeinsine
+a s_movecamera position z 340.00 0.25 0.1 easeoutquad
+a s_movecamera position z 340.25 0.75 -0.1 easeinsine
+a s_movecamera position z 341.00 0.25 0.1 easeoutquad
+a s_movecamera position z 341.25 0.75 -0.1 easeinsine
+a s_movecamera position z 342.00 0.25 0.1 easeoutquad
+a s_movecamera position z 342.25 0.75 -0.1 easeinsine
+a s_movecamera position z 343.00 0.25 0.1 easeoutquad
+a s_movecamera position z 343.25 0.75 -0.1 easeinsine
+a s_movecamera position z 344.00 0.25 0.1 easeoutquad
+a s_movecamera position z 344.25 0.75 -0.1 easeinsine
+a s_movecamera position z 345.00 0.25 0.1 easeoutquad
+a s_movecamera position z 345.25 0.75 -0.1 easeinsine
+a s_movecamera position z 346.00 0.25 0.1 easeoutquad
+a s_movecamera position z 346.25 0.75 -0.1 easeinsine
+a s_movecamera position z 347.00 0.25 0.1 easeoutquad
+a s_movecamera position z 347.25 0.75 -0.1 easeinsine
+a s_movecamera position z 348.00 0.25 0.1 easeoutquad
+a s_movecamera position z 348.25 0.75 -0.1 easeinsine
 
-a s_movecamera position z 365.00 0.25 0.2 EaseOutQuad
-a s_movecamera position z 365.25 0.75 -0.2 EaseInSine
-a s_movecamera position z 366.00 0.25 0.2 EaseOutQuad
-a s_movecamera position z 366.25 0.75 -0.2 EaseInSine
-a s_movecamera position z 367.00 0.25 0.2 EaseOutQuad
-a s_movecamera position z 367.25 0.75 -0.2 EaseInSine
-a s_movecamera position z 368.00 0.25 0.2 EaseOutQuad
-a s_movecamera position z 368.25 0.75 -0.2 EaseInSine
-a s_movecamera position z 369.00 0.25 0.2 EaseOutQuad
-a s_movecamera position z 369.25 0.75 -0.2 EaseInSine
-a s_movecamera position z 370.00 0.25 0.2 EaseOutQuad
-a s_movecamera position z 370.25 0.75 -0.2 EaseInSine
-a s_movecamera position z 371.00 0.25 0.2 EaseOutQuad
-a s_movecamera position z 371.25 0.75 -0.2 EaseInSine
-a s_movecamera position z 372.00 0.25 0.2 EaseOutQuad
-a s_movecamera position z 372.25 0.75 -0.2 EaseInSine
-a s_movecamera position z 373.00 0.25 0.2 EaseOutQuad
-a s_movecamera position z 373.25 0.75 -0.2 EaseInSine
-a s_movecamera position z 374.00 0.25 0.2 EaseOutQuad
-a s_movecamera position z 374.25 0.75 -0.2 EaseInSine
-a s_movecamera position z 375.00 0.25 0.2 EaseOutQuad
-a s_movecamera position z 375.25 0.75 -0.2 EaseInSine
-a s_movecamera position z 376.00 0.25 0.2 EaseOutQuad
-a s_movecamera position z 376.25 0.75 -0.2 EaseInSine
-a s_movecamera position z 377.00 0.25 0.2 EaseOutQuad
-a s_movecamera position z 377.25 0.75 -0.2 EaseInSine
-a s_movecamera position z 378.00 0.25 0.2 EaseOutQuad
-a s_movecamera position z 378.25 0.75 -0.2 EaseInSine
-a s_movecamera position z 379.00 0.25 0.2 EaseOutQuad
-a s_movecamera position z 379.25 0.75 -0.2 EaseInSine
-a s_movecamera position z 380.00 0.25 0.2 EaseOutQuad
-a s_movecamera position z 380.25 0.75 -0.2 Easeinsine
-a s_movecamera position z 381.00 0.25 0.2 EaseOutQuad
-a s_movecamera position z 381.25 0.75 -0.2 EaseInSine
-a s_movecamera position z 382.00 0.25 0.2 EaseOutQuad
-a s_movecamera position z 382.25 0.75 -0.2 EaseInSine
-a s_movecamera position z 383.00 0.25 0.2 EaseOutQuad
-a s_movecamera position z 383.25 0.75 -0.2 EaseInSine
-a s_movecamera position z 384.00 0.25 0.2 EaseOutQuad
-a s_movecamera position z 384.25 0.75 -0.2 EaseInSine
-a s_movecamera position z 385.00 0.25 0.2 EaseOutQuad
-a s_movecamera position z 385.25 0.75 -0.2 EaseInSine
-a s_movecamera position z 386.00 0.25 0.2 EaseOutQuad
-a s_movecamera position z 386.25 0.75 -0.2 EaseInSine
-a s_movecamera position z 387.00 0.25 0.2 EaseOutQuad
-a s_movecamera position z 387.25 0.75 -0.2 EaseInSine
-a s_movecamera position z 388.00 0.25 0.2 EaseOutQuad
-a s_movecamera position z 388.25 0.75 -0.2 EaseInSine
-a s_movecamera position z 389.00 0.25 0.2 EaseOutQuad
-a s_movecamera position z 389.25 0.75 -0.2 EaseInSine
-a s_movecamera position z 390.00 0.25 0.2 EaseOutQuad
-a s_movecamera position z 390.25 0.75 -0.2 Easeinsine
-a s_movecamera position z 391.00 0.25 0.2 EaseOutQuad
-a s_movecamera position z 391.25 0.75 -0.2 EaseInSine
-a s_movecamera position z 392.00 0.25 0.2 EaseOutQuad
-a s_movecamera position z 392.25 0.75 -0.2 EaseInSine
-a s_movecamera position z 393.00 0.25 0.2 EaseOutQuad
-a s_movecamera position z 393.25 0.75 -0.2 EaseInSine
-a s_movecamera position z 394.00 0.25 0.2 EaseOutQuad
-/a s_movecamera position z 394.25 0.75 -0.2 EaseInSine
-/a s_movecamera position z 395.00 0.25 0.2 EaseOutQuad
-/a s_movecamera position z 395.25 0.75 -0.2 EaseInSine
-a s_movecamera position z 396.00 0.25 0.2 EaseOutQuad
-a s_movecamera position z 396.50 0.25 0.2 EaseOutQuad
+a s_movecamera position z 365.00 0.25 0.2 easeoutquad
+a s_movecamera position z 365.25 0.75 -0.2 easeinsine
+a s_movecamera position z 366.00 0.25 0.2 easeoutquad
+a s_movecamera position z 366.25 0.75 -0.2 easeinsine
+a s_movecamera position z 367.00 0.25 0.2 easeoutquad
+a s_movecamera position z 367.25 0.75 -0.2 easeinsine
+a s_movecamera position z 368.00 0.25 0.2 easeoutquad
+a s_movecamera position z 368.25 0.75 -0.2 easeinsine
+a s_movecamera position z 369.00 0.25 0.2 easeoutquad
+a s_movecamera position z 369.25 0.75 -0.2 easeinsine
+a s_movecamera position z 370.00 0.25 0.2 easeoutquad
+a s_movecamera position z 370.25 0.75 -0.2 easeinsine
+a s_movecamera position z 371.00 0.25 0.2 easeoutquad
+a s_movecamera position z 371.25 0.75 -0.2 easeinsine
+a s_movecamera position z 372.00 0.25 0.2 easeoutquad
+a s_movecamera position z 372.25 0.75 -0.2 easeinsine
+a s_movecamera position z 373.00 0.25 0.2 easeoutquad
+a s_movecamera position z 373.25 0.75 -0.2 easeinsine
+a s_movecamera position z 374.00 0.25 0.2 easeoutquad
+a s_movecamera position z 374.25 0.75 -0.2 easeinsine
+a s_movecamera position z 375.00 0.25 0.2 easeoutquad
+a s_movecamera position z 375.25 0.75 -0.2 easeinsine
+a s_movecamera position z 376.00 0.25 0.2 easeoutquad
+a s_movecamera position z 376.25 0.75 -0.2 easeinsine
+a s_movecamera position z 377.00 0.25 0.2 easeoutquad
+a s_movecamera position z 377.25 0.75 -0.2 easeinsine
+a s_movecamera position z 378.00 0.25 0.2 easeoutquad
+a s_movecamera position z 378.25 0.75 -0.2 easeinsine
+a s_movecamera position z 379.00 0.25 0.2 easeoutquad
+a s_movecamera position z 379.25 0.75 -0.2 easeinsine
+a s_movecamera position z 380.00 0.25 0.2 easeoutquad
+a s_movecamera position z 380.25 0.75 -0.2 easeinsine
+a s_movecamera position z 381.00 0.25 0.2 easeoutquad
+a s_movecamera position z 381.25 0.75 -0.2 easeinsine
+a s_movecamera position z 382.00 0.25 0.2 easeoutquad
+a s_movecamera position z 382.25 0.75 -0.2 easeinsine
+a s_movecamera position z 383.00 0.25 0.2 easeoutquad
+a s_movecamera position z 383.25 0.75 -0.2 easeinsine
+a s_movecamera position z 384.00 0.25 0.2 easeoutquad
+a s_movecamera position z 384.25 0.75 -0.2 easeinsine
+a s_movecamera position z 385.00 0.25 0.2 easeoutquad
+a s_movecamera position z 385.25 0.75 -0.2 easeinsine
+a s_movecamera position z 386.00 0.25 0.2 easeoutquad
+a s_movecamera position z 386.25 0.75 -0.2 easeinsine
+a s_movecamera position z 387.00 0.25 0.2 easeoutquad
+a s_movecamera position z 387.25 0.75 -0.2 easeinsine
+a s_movecamera position z 388.00 0.25 0.2 easeoutquad
+a s_movecamera position z 388.25 0.75 -0.2 easeinsine
+a s_movecamera position z 389.00 0.25 0.2 easeoutquad
+a s_movecamera position z 389.25 0.75 -0.2 easeinsine
+a s_movecamera position z 390.00 0.25 0.2 easeoutquad
+a s_movecamera position z 390.25 0.75 -0.2 easeinsine
+a s_movecamera position z 391.00 0.25 0.2 easeoutquad
+a s_movecamera position z 391.25 0.75 -0.2 easeinsine
+a s_movecamera position z 392.00 0.25 0.2 easeoutquad
+a s_movecamera position z 392.25 0.75 -0.2 easeinsine
+a s_movecamera position z 393.00 0.25 0.2 easeoutquad
+a s_movecamera position z 393.25 0.75 -0.2 easeinsine
+a s_movecamera position z 394.00 0.25 0.2 easeoutquad
+/a s_movecamera position z 394.25 0.75 -0.2 easeinsine
+/a s_movecamera position z 395.00 0.25 0.2 easeoutquad
+/a s_movecamera position z 395.25 0.75 -0.2 easeinsine
+a s_movecamera position z 396.00 0.25 0.2 easeoutquad
+a s_movecamera position z 396.50 0.25 0.2 easeoutquad
 
-a s_movecamera position z 397.00 0.25 0.2 EaseOutQuad
-a s_movecamera position z 397.25 0.75 -0.8 EaseInSine
-a s_movecamera position z 398.00 0.25 0.2 EaseOutQuad
-a s_movecamera position z 398.25 0.75 -0.2 EaseInSine
-a s_movecamera position z 399.00 0.25 0.2 EaseOutQuad
-a s_movecamera position z 399.25 0.75 -0.2 EaseInSine
-a s_movecamera position z 400.00 0.25 0.2 EaseOutQuad
-a s_movecamera position z 400.25 0.75 -0.2 Easeinsine
-a s_movecamera position z 401.00 0.25 0.2 EaseOutQuad
-a s_movecamera position z 401.25 0.75 -0.2 Easeinsine
-a s_movecamera position z 402.00 0.25 0.2 EaseOutQuad
-a s_movecamera position z 402.25 0.75 -0.2 Easeinsine
-a s_movecamera position z 403.00 0.25 0.2 EaseOutQuad
-a s_movecamera position z 403.25 0.75 -0.2 Easeinsine
-a s_movecamera position z 404.00 0.25 0.2 EaseOutQuad
-a s_movecamera position z 404.25 0.75 -0.2 Easeinsine
-a s_movecamera position z 405.00 0.25 0.2 EaseOutQuad
-a s_movecamera position z 405.25 0.75 -0.2 Easeinsine
-a s_movecamera position z 406.00 0.25 0.2 EaseOutQuad
-a s_movecamera position z 406.25 0.75 -0.2 Easeinsine
-a s_movecamera position z 407.00 0.25 0.2 EaseOutQuad
-a s_movecamera position z 407.25 0.75 -0.2 Easeinsine
-a s_movecamera position z 408.00 0.25 0.2 EaseOutQuad
-a s_movecamera position z 408.25 0.75 -0.2 Easeinsine
-a s_movecamera position z 409.00 0.25 0.2 EaseOutQuad
-a s_movecamera position z 409.25 0.75 -0.2 Easeinsine
-a s_movecamera position z 410.00 0.25 0.2 EaseOutQuad
-a s_movecamera position z 410.25 0.75 -0.2 Easeinsine
-a s_movecamera position z 411.00 0.25 0.2 EaseOutQuad
-a s_movecamera position z 411.25 0.75 -0.2 Easeinsine
-a s_movecamera position z 412.00 0.25 0.2 EaseOutQuad
-a s_movecamera position z 412.25 0.75 -0.2 Easeinsine
+a s_movecamera position z 397.00 0.25 0.2 easeoutquad
+a s_movecamera position z 397.25 0.75 -0.8 easeinsine
+a s_movecamera position z 398.00 0.25 0.2 easeoutquad
+a s_movecamera position z 398.25 0.75 -0.2 easeinsine
+a s_movecamera position z 399.00 0.25 0.2 easeoutquad
+a s_movecamera position z 399.25 0.75 -0.2 easeinsine
+a s_movecamera position z 400.00 0.25 0.2 easeoutquad
+a s_movecamera position z 400.25 0.75 -0.2 easeinsine
+a s_movecamera position z 401.00 0.25 0.2 easeoutquad
+a s_movecamera position z 401.25 0.75 -0.2 easeinsine
+a s_movecamera position z 402.00 0.25 0.2 easeoutquad
+a s_movecamera position z 402.25 0.75 -0.2 easeinsine
+a s_movecamera position z 403.00 0.25 0.2 easeoutquad
+a s_movecamera position z 403.25 0.75 -0.2 easeinsine
+a s_movecamera position z 404.00 0.25 0.2 easeoutquad
+a s_movecamera position z 404.25 0.75 -0.2 easeinsine
+a s_movecamera position z 405.00 0.25 0.2 easeoutquad
+a s_movecamera position z 405.25 0.75 -0.2 easeinsine
+a s_movecamera position z 406.00 0.25 0.2 easeoutquad
+a s_movecamera position z 406.25 0.75 -0.2 easeinsine
+a s_movecamera position z 407.00 0.25 0.2 easeoutquad
+a s_movecamera position z 407.25 0.75 -0.2 easeinsine
+a s_movecamera position z 408.00 0.25 0.2 easeoutquad
+a s_movecamera position z 408.25 0.75 -0.2 easeinsine
+a s_movecamera position z 409.00 0.25 0.2 easeoutquad
+a s_movecamera position z 409.25 0.75 -0.2 easeinsine
+a s_movecamera position z 410.00 0.25 0.2 easeoutquad
+a s_movecamera position z 410.25 0.75 -0.2 easeinsine
+a s_movecamera position z 411.00 0.25 0.2 easeoutquad
+a s_movecamera position z 411.25 0.75 -0.2 easeinsine
+a s_movecamera position z 412.00 0.25 0.2 easeoutquad
+a s_movecamera position z 412.25 0.75 -0.2 easeinsine
 
-a s_movecamera position z 429.00 0.25 0.2 EaseOutQuad
-a s_movecamera position z 429.25 0.75 -0.2 EaseInSine
-a s_movecamera position z 430.00 0.25 0.2 EaseOutQuad
-a s_movecamera position z 430.25 0.75 -0.2 Easeinsine
-a s_movecamera position z 431.00 0.25 0.2 EaseOutQuad
-a s_movecamera position z 431.25 0.75 -0.2 Easeinsine
-a s_movecamera position z 432.00 0.25 0.2 EaseOutQuad
-a s_movecamera position z 432.25 0.75 -0.2 Easeinsine
-a s_movecamera position z 433.00 0.25 0.2 EaseOutQuad
-a s_movecamera position z 433.25 0.75 -0.2 Easeinsine
-a s_movecamera position z 434.00 0.25 0.2 EaseOutQuad
-a s_movecamera position z 434.25 0.75 -0.2 Easeinsine
-a s_movecamera position z 435.00 0.25 0.2 EaseOutQuad
-a s_movecamera position z 435.25 0.75 -0.2 Easeinsine
-a s_movecamera position z 436.00 0.25 0.2 EaseOutQuad
-a s_movecamera position z 436.25 0.75 -0.2 Easeinsine
-a s_movecamera position z 437.00 0.25 0.2 EaseOutQuad
-a s_movecamera position z 437.25 0.75 -0.2 Easeinsine
-a s_movecamera position z 438.00 0.25 0.2 EaseOutQuad
-a s_movecamera position z 438.25 0.75 -0.2 Easeinsine
-a s_movecamera position z 439.00 0.25 0.2 EaseOutQuad
-a s_movecamera position z 439.25 0.75 -0.2 Easeinsine
-a s_movecamera position z 440.00 0.25 0.2 EaseOutQuad
-a s_movecamera position z 440.25 0.75 -0.2 Easeinsine
-a s_movecamera position z 441.00 0.25 0.2 EaseOutQuad
-a s_movecamera position z 441.25 0.75 -0.2 Easeinsine
-a s_movecamera position z 442.00 0.25 0.2 EaseOutQuad
-a s_movecamera position z 442.25 0.75 -0.2 Easeinsine
-a s_movecamera position z 443.00 0.25 0.2 EaseOutQuad
-a s_movecamera position z 443.25 0.75 -0.2 Easeinsine
-a s_movecamera position z 444.00 0.25 0.2 EaseOutQuad
-a s_movecamera position z 444.25 0.75 -0.2 Easeinsine
-a s_movecamera position z 445.00 0.25 0.2 EaseOutQuad
-a s_movecamera position z 445.25 0.75 -0.2 Easeinsine
-a s_movecamera position z 446.00 0.25 0.2 EaseOutQuad
-a s_movecamera position z 446.25 0.75 -0.2 Easeinsine
-a s_movecamera position z 447.00 0.25 0.2 EaseOutQuad
-a s_movecamera position z 447.25 0.75 -0.2 Easeinsine
-a s_movecamera position z 448.00 0.25 0.2 EaseOutQuad
-a s_movecamera position z 448.25 0.75 -0.2 Easeinsine
-a s_movecamera position z 449.00 0.25 0.2 EaseOutQuad
-a s_movecamera position z 449.25 0.75 -0.2 Easeinsine
-a s_movecamera position z 440.00 0.25 0.2 EaseOutQuad
-a s_movecamera position z 440.25 0.75 -0.2 Easeinsine
-a s_movecamera position z 451.00 0.25 0.2 EaseOutQuad
-a s_movecamera position z 451.25 0.75 -0.2 Easeinsine
-a s_movecamera position z 452.00 0.25 0.2 EaseOutQuad
-a s_movecamera position z 452.25 0.75 -0.2 Easeinsine
-a s_movecamera position z 453.00 0.25 0.2 EaseOutQuad
-a s_movecamera position z 453.25 0.75 -0.2 Easeinsine
-a s_movecamera position z 454.00 0.25 0.2 EaseOutQuad
-a s_movecamera position z 454.25 0.75 -0.2 Easeinsine
-a s_movecamera position z 455.00 0.25 0.2 EaseOutQuad
-a s_movecamera position z 455.25 0.75 -0.2 Easeinsine
-a s_movecamera position z 456.00 0.25 0.2 EaseOutQuad
-a s_movecamera position z 456.25 0.75 -0.2 Easeinsine
-a s_movecamera position z 457.00 0.25 0.2 EaseOutQuad
-a s_movecamera position z 457.25 0.75 -0.2 Easeinsine
-a s_movecamera position z 458.00 0.25 0.2 EaseOutQuad
-a s_movecamera position z 458.25 0.75 -0.2 Easeinsine
-a s_movecamera position z 459.00 0.25 0.2 EaseOutQuad
-a s_movecamera position z 459.25 0.75 -0.2 Easeinsine
-a s_movecamera position z 460.00 0.25 0.2 EaseOutQuad
-a s_movecamera position z 460.5 0.25 0.2 EaseOutQuad
+a s_movecamera position z 429.00 0.25 0.2 easeoutquad
+a s_movecamera position z 429.25 0.75 -0.2 easeinsine
+a s_movecamera position z 430.00 0.25 0.2 easeoutquad
+a s_movecamera position z 430.25 0.75 -0.2 easeinsine
+a s_movecamera position z 431.00 0.25 0.2 easeoutquad
+a s_movecamera position z 431.25 0.75 -0.2 easeinsine
+a s_movecamera position z 432.00 0.25 0.2 easeoutquad
+a s_movecamera position z 432.25 0.75 -0.2 easeinsine
+a s_movecamera position z 433.00 0.25 0.2 easeoutquad
+a s_movecamera position z 433.25 0.75 -0.2 easeinsine
+a s_movecamera position z 434.00 0.25 0.2 easeoutquad
+a s_movecamera position z 434.25 0.75 -0.2 easeinsine
+a s_movecamera position z 435.00 0.25 0.2 easeoutquad
+a s_movecamera position z 435.25 0.75 -0.2 easeinsine
+a s_movecamera position z 436.00 0.25 0.2 easeoutquad
+a s_movecamera position z 436.25 0.75 -0.2 easeinsine
+a s_movecamera position z 437.00 0.25 0.2 easeoutquad
+a s_movecamera position z 437.25 0.75 -0.2 easeinsine
+a s_movecamera position z 438.00 0.25 0.2 easeoutquad
+a s_movecamera position z 438.25 0.75 -0.2 easeinsine
+a s_movecamera position z 439.00 0.25 0.2 easeoutquad
+a s_movecamera position z 439.25 0.75 -0.2 easeinsine
+a s_movecamera position z 440.00 0.25 0.2 easeoutquad
+a s_movecamera position z 440.25 0.75 -0.2 easeinsine
+a s_movecamera position z 441.00 0.25 0.2 easeoutquad
+a s_movecamera position z 441.25 0.75 -0.2 easeinsine
+a s_movecamera position z 442.00 0.25 0.2 easeoutquad
+a s_movecamera position z 442.25 0.75 -0.2 easeinsine
+a s_movecamera position z 443.00 0.25 0.2 easeoutquad
+a s_movecamera position z 443.25 0.75 -0.2 easeinsine
+a s_movecamera position z 444.00 0.25 0.2 easeoutquad
+a s_movecamera position z 444.25 0.75 -0.2 easeinsine
+a s_movecamera position z 445.00 0.25 0.2 easeoutquad
+a s_movecamera position z 445.25 0.75 -0.2 easeinsine
+a s_movecamera position z 446.00 0.25 0.2 easeoutquad
+a s_movecamera position z 446.25 0.75 -0.2 easeinsine
+a s_movecamera position z 447.00 0.25 0.2 easeoutquad
+a s_movecamera position z 447.25 0.75 -0.2 easeinsine
+a s_movecamera position z 448.00 0.25 0.2 easeoutquad
+a s_movecamera position z 448.25 0.75 -0.2 easeinsine
+a s_movecamera position z 449.00 0.25 0.2 easeoutquad
+a s_movecamera position z 449.25 0.75 -0.2 easeinsine
+a s_movecamera position z 440.00 0.25 0.2 easeoutquad
+a s_movecamera position z 440.25 0.75 -0.2 easeinsine
+a s_movecamera position z 451.00 0.25 0.2 easeoutquad
+a s_movecamera position z 451.25 0.75 -0.2 easeinsine
+a s_movecamera position z 452.00 0.25 0.2 easeoutquad
+a s_movecamera position z 452.25 0.75 -0.2 easeinsine
+a s_movecamera position z 453.00 0.25 0.2 easeoutquad
+a s_movecamera position z 453.25 0.75 -0.2 easeinsine
+a s_movecamera position z 454.00 0.25 0.2 easeoutquad
+a s_movecamera position z 454.25 0.75 -0.2 easeinsine
+a s_movecamera position z 455.00 0.25 0.2 easeoutquad
+a s_movecamera position z 455.25 0.75 -0.2 easeinsine
+a s_movecamera position z 456.00 0.25 0.2 easeoutquad
+a s_movecamera position z 456.25 0.75 -0.2 easeinsine
+a s_movecamera position z 457.00 0.25 0.2 easeoutquad
+a s_movecamera position z 457.25 0.75 -0.2 easeinsine
+a s_movecamera position z 458.00 0.25 0.2 easeoutquad
+a s_movecamera position z 458.25 0.75 -0.2 easeinsine
+a s_movecamera position z 459.00 0.25 0.2 easeoutquad
+a s_movecamera position z 459.25 0.75 -0.2 easeinsine
+a s_movecamera position z 460.00 0.25 0.2 easeoutquad
+a s_movecamera position z 460.5 0.25 0.2 easeoutquad
 
-a s_movecamera position z 461.00 0.25 0.2 EaseOutQuad
-a s_movecamera position z 461.25 0.75 -0.6 Easeinsine
-a s_movecamera position z 462.00 0.25 0.2 EaseOutQuad
-a s_movecamera position z 462.25 0.75 -0.2 Easeinsine
-a s_movecamera position z 463.00 0.25 0.2 EaseOutQuad
-a s_movecamera position z 463.25 0.75 -0.2 Easeinsine
-a s_movecamera position z 464.00 0.25 0.2 EaseOutQuad
-a s_movecamera position z 464.25 0.75 -0.2 Easeinsine
-a s_movecamera position z 465.00 0.25 0.2 EaseOutQuad
-a s_movecamera position z 465.25 0.75 -0.2 Easeinsine
-a s_movecamera position z 466.00 0.25 0.2 EaseOutQuad
-a s_movecamera position z 466.25 0.75 -0.2 Easeinsine
-a s_movecamera position z 467.00 0.25 0.2 EaseOutQuad
-a s_movecamera position z 467.25 0.75 -0.2 Easeinsine
-a s_movecamera position z 468.00 0.25 0.2 EaseOutQuad
-a s_movecamera position z 468.25 0.75 -0.2 Easeinsine
-a s_movecamera position z 469.00 0.25 0.2 EaseOutQuad
-a s_movecamera position z 469.25 0.75 -0.2 Easeinsine
-a s_movecamera position z 470.00 0.25 0.2 EaseOutQuad
-a s_movecamera position z 470.25 0.75 -0.2 Easeinsine
-a s_movecamera position z 471.00 0.25 0.2 EaseOutQuad
-a s_movecamera position z 471.25 0.75 -0.2 Easeinsine
-a s_movecamera position z 472.00 0.25 0.2 EaseOutQuad
-a s_movecamera position z 472.25 0.75 -0.2 Easeinsine
-a s_movecamera position z 473.00 0.25 0.2 EaseOutQuad
-a s_movecamera position z 473.25 0.75 -0.2 Easeinsine
-a s_movecamera position z 474.00 0.25 0.2 EaseOutQuad
-a s_movecamera position z 474.25 0.75 -0.2 Easeinsine
-a s_movecamera position z 475.00 0.25 0.2 EaseOutQuad
-a s_movecamera position z 475.25 0.75 -0.2 Easeinsine
-a s_movecamera position z 476.00 0.25 0.2 EaseOutQuad
-a s_movecamera position z 476.25 0.75 -0.2 Easeinsine
+a s_movecamera position z 461.00 0.25 0.2 easeoutquad
+a s_movecamera position z 461.25 0.75 -0.6 easeinsine
+a s_movecamera position z 462.00 0.25 0.2 easeoutquad
+a s_movecamera position z 462.25 0.75 -0.2 easeinsine
+a s_movecamera position z 463.00 0.25 0.2 easeoutquad
+a s_movecamera position z 463.25 0.75 -0.2 easeinsine
+a s_movecamera position z 464.00 0.25 0.2 easeoutquad
+a s_movecamera position z 464.25 0.75 -0.2 easeinsine
+a s_movecamera position z 465.00 0.25 0.2 easeoutquad
+a s_movecamera position z 465.25 0.75 -0.2 easeinsine
+a s_movecamera position z 466.00 0.25 0.2 easeoutquad
+a s_movecamera position z 466.25 0.75 -0.2 easeinsine
+a s_movecamera position z 467.00 0.25 0.2 easeoutquad
+a s_movecamera position z 467.25 0.75 -0.2 easeinsine
+a s_movecamera position z 468.00 0.25 0.2 easeoutquad
+a s_movecamera position z 468.25 0.75 -0.2 easeinsine
+a s_movecamera position z 469.00 0.25 0.2 easeoutquad
+a s_movecamera position z 469.25 0.75 -0.2 easeinsine
+a s_movecamera position z 470.00 0.25 0.2 easeoutquad
+a s_movecamera position z 470.25 0.75 -0.2 easeinsine
+a s_movecamera position z 471.00 0.25 0.2 easeoutquad
+a s_movecamera position z 471.25 0.75 -0.2 easeinsine
+a s_movecamera position z 472.00 0.25 0.2 easeoutquad
+a s_movecamera position z 472.25 0.75 -0.2 easeinsine
+a s_movecamera position z 473.00 0.25 0.2 easeoutquad
+a s_movecamera position z 473.25 0.75 -0.2 easeinsine
+a s_movecamera position z 474.00 0.25 0.2 easeoutquad
+a s_movecamera position z 474.25 0.75 -0.2 easeinsine
+a s_movecamera position z 475.00 0.25 0.2 easeoutquad
+a s_movecamera position z 475.25 0.75 -0.2 easeinsine
+a s_movecamera position z 476.00 0.25 0.2 easeoutquad
+a s_movecamera position z 476.25 0.75 -0.2 easeinsine
 
 
 

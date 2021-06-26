@@ -165,7 +165,7 @@ a changestage original 140.5 1.5 easeinsine
 
 #正式譜面
 
-#Head
+#head
 n short lb rb 0
 n short lb 0.5
 n short rc 1
@@ -194,7 +194,7 @@ n short rt 13
 
 n compound lb rb 14 15.5 8
 
-#A
+#a
 n long lc 16 16.5
 n swipe out rt 16.5
 
@@ -297,7 +297,7 @@ n short rt 46.5
 n short rt 47
 n swipe out rt 47.5
 
-#B
+#b
 n short lc rc 48
 n short lc 48.5
 n short rt lb 49
@@ -414,7 +414,7 @@ n swipe in rb 85.5
 
 n long lb rt 86 87.5
 
-#A
+#a
 n long rt 88 88.5
 n swipe out lc 88.5
 
@@ -502,7 +502,7 @@ n catch rc 119.125
 n short lb rb 119.5
 n catch lc 119.625
 
-#B
+#b
 n short rc lc 120
 n short rc 120.5
 n short lt rb 121
