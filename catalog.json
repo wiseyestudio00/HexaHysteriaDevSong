@@ -1,24 +1,4 @@
 {
-    "MeltInNight/chart.easy.txt": {
-        "ModificationDate": "2021-06-26 22:28:51.887399",
-        "Size": 3281
-    },
-    "MeltInNight/level.json": {
-        "ModificationDate": "2021-05-31 21:06:52.285648",
-        "Size": 106
-    },
-    "MeltInNight/chart.hard.txt": {
-        "ModificationDate": "2021-06-26 22:28:51.890630",
-        "Size": 16507
-    },
-    "MeltInNight/audio.ogg": {
-        "ModificationDate": "2020-10-16 00:31:06.099945",
-        "Size": 3038147
-    },
-    "MeltInNight/chart.medium.txt": {
-        "ModificationDate": "2021-06-26 22:28:51.892540",
-        "Size": 8477
-    },
     "Blue/level.json": {
         "ModificationDate": "2021-05-31 21:02:39.913237",
         "Size": 101
