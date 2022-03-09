@@ -1,15 +1,19 @@
 {
+    "mind paradox/chart.easy.txt": {
+        "ModificationDate": "2022-03-09 13:27:36.065501",
+        "Size": 6065
+    },
     "mind paradox/level.json": {
         "ModificationDate": "2021-08-25 11:42:24.633278",
         "Size": 133
     },
     "mind paradox/chart.hexa.txt": {
-        "ModificationDate": "2021-12-26 23:19:18.926224",
-        "Size": 38742
+        "ModificationDate": "2022-03-09 13:27:36.067495",
+        "Size": 38814
     },
     "mind paradox/chart.hard.txt": {
-        "ModificationDate": "2022-02-04 18:21:58.043432",
-        "Size": 33074
+        "ModificationDate": "2022-03-09 13:27:36.066815",
+        "Size": 33111
     },
     "mind paradox/audio.ogg": {
         "ModificationDate": "2021-08-25 11:42:24.632066",
